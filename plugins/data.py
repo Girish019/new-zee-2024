@@ -1,7 +1,7 @@
 
 # A simple format under pic
 FOMET = """
-fιℓє ѕιzє   ➺  <b>{}</b>
+Ꮛᴘɪᴤοᴅє ŋο   ➺  <b>[{}] {}</b>
 
 ▬▬▬▬▬ ✮✯☆★ ❂ ★☆✯✮ ▬▬▬▬▬
        
