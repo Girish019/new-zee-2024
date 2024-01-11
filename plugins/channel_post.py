@@ -34,7 +34,7 @@ async def channel_post(client: Client, message: Message):
 ################# FOR DS BOT ##################
     #filname = re.split(current_time.strftime("%B"), media.file_name)[0]#[1][2]etc   
 ################ FOR DS BOT 2nd CASE #############
-    prefile = re.split("Episode\s", txt)[1]
+    prefile = re.split("Episode\s", media.caption)[1]
     subfile = re.split("\s-\s",prefile)
     Eno = subfile[0]
     filname = f'{subfile[1].replace(" ", "_")}_'
