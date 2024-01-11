@@ -45,7 +45,7 @@ DATAODD = {
         'SeethaRaama_':['https://graph.org/file/d7b3c98a89d0d061f064f.jpg','tnshort.net','0045de7eda3a082a38f05bdd0d1c4de1262709fb','-1001942664190'],
         'Amruthadhaare_':['https://graph.org/file/2ebe4f1d999849a1ca574.jpg','linkshortify.com','8a9a3df5db074b2b1ad10efcd383e5243118447b','-1001942664190'],
         'Mahanayaka_Dr_B_R_Ambedkar_':['https://graph.org/file/6faf520d534a49f6742bb.jpg','moneycase.link','bdc62bf7dd54515abf15371b58feb6a1ff2b434a','-1001942664190'],
-        'Shrirasthu_Shubhamasthu_':['https://graph.org/file/b6d93c7cc15166fbf7e35.jpg','moneycase.link','f35b0c3ac535a200b3287c698b652e58b4689b6f','-1001942664190'],
+        'Shrirasthu_':['https://graph.org/file/b6d93c7cc15166fbf7e35.jpg','moneycase.link','f35b0c3ac535a200b3287c698b652e58b4689b6f','-1001942664190'],
         'Soubhagyavati_Bhava_':['https://graph.org/file/2d34fb7705e6ecb7c5937.jpg','tnvalue.in','8fc4e5a5a7f1d571adfc7c02537d7c1e73da1a15','-1001942664190'],
         'Hitler_Kalyana_':['https://graph.org/file/4bccb3c8fd1fe4c5d92e7.jpg','linkshortify.com','4bc6f1e34d0409e5b8bd2197d42462bb1ec6048a','-1001942664190'],
         'Sathya_':['https://graph.org/file/7f30ff54ecf9b380e4634.jpg','tnshort.net','1183b34c88b1fd4e898d7d9dc7b6fc6a2bea9dd9','-1001942664190'],
