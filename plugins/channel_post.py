@@ -82,14 +82,8 @@ async def channel_post(client: Client, message: Message):
             await asyncio.sleep(0.5)
             await bot_msg.edit("Wait Sending Photo ▣ ▣ ▣ ")
             await asyncio.sleep(0.5)
-            #withou Eno
-            #await client.send_photo(chat_id=chtid, photo=pic, caption=FOMET.format(Size, DATEDAY[-1], Slink, Slink))
-            #with Eno
-            await client.send_photo(chat_id=chtid, photo=pic, caption=FOMET.format(Eno, Size, DATEDAY[-1], Slink, Slink))
+            await client.send_photo(chat_id=chtid, photo=pic, caption=FOMET.format(Size, DATEDAY[-1], Slink, Slink))
             await asyncio.sleep(1)
-            #without Eno
-            #await bot_msg.edit(BOTEFITMSG.format(filname, Tlink, Slink, Size, DATEDAY[-1])) #msg edit to "please wait...(see line 39" msg ==> and finally the elements belongs to sent serials are updated here
-            #with E no
             await bot_msg.edit(BOTEFITMSG.format(filname, Tlink, Slink, Size, DATEDAY[-1])) # msg edit in forwarder channel = "pic without captions (see line 41)" ==> thats return to our given format and short link ,date are updated here
     except:
         link = await conv_link(client , message)
