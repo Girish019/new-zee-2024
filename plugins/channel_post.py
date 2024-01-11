@@ -37,7 +37,7 @@ async def channel_post(client: Client, message: Message):
    
     bot_msg = await message.reply_text("Please Wait...!", quote = True) #reply text please wait... to bot
     try:
-         if "ZEE5.WEB-DL" in message.caption:
+        if "ZEE5.WEB-DL" in message.caption:
             prefile = re.split("Episode\s", message.caption)[1]
             subfile = re.split("\s-\s",prefile)
             Eno = subfile[0]
@@ -56,21 +56,15 @@ async def channel_post(client: Client, message: Message):
                     SL_URL=DATAODD[filname][1] #for particuler domine name
                     SL_API=DATAODD[filname][2] #for particuler api 
                    # chtid=message.chat.id # if you want pic+formet into bot pm     
-                else:
-                    await bot_msg.edit("ELEMENT EXTRACTION FAILED")
         
-            elif int(DATEDAY[-1][0:2]) % 2 == 0: #checking for EVEN
+            else int(DATEDAY[-1][0:2]) % 2 == 0: #checking for EVEN
                 if filname in DATAEVEN.keys():
                     chtid=int(DATAEVEN[filname][3])
                     pic=DATAEVEN[filname][0]
                     SL_URL=DATAEVEN[filname][1]
                     SL_API=DATAEVEN[filname][2]
                     # chtid=message.chat.id # if you want pic+formet into bot pm
-                else:
-                    await bot_msg.edit("ELEMENT EXTRACTION FAILED")
-            else:
-                 await bot_msg.edit("Something went wrong")
-                
+             
             Tlink = await conv_link(client , message)
             await asyncio.sleep(1)
             Slink = await get_short(SL_URL, SL_API, Tlink) #generating short link with particular domine and api
