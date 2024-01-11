@@ -28,12 +28,17 @@ async def channel_post(client: Client, message: Message):
     current_time = datetime.now()
     media = message.video or message.document
     # filname= media.file_name.split("S0")[0]#[1][2]etc
-    ############# FOR UTSAV BOT ##################
+############# FOR UTSAV BOT ##################
     #filname = re.split("S\d", media.file_name)[0]#[1][2]etc
-    ############# FOR DS BOT ##################
-    filname = re.split(current_time.strftime("%B"), media.file_name)[0]#[1][2]etc
+    #Eno= re.findall("S\d+E\d+\d", media.file_name)
+################# FOR DS BOT ##################
+    #filname = re.split(current_time.strftime("%B"), media.file_name)[0]#[1][2]etc   
+################ FOR DS BOT 2nd CASE #############
+    prefile = re.split("Episode_", media.file_name)[1]
+    Eno = re.split("_",prefile)[0]
+    En = re.split(f"{Eno}_",prefile)[1]
+    filname = re.split(f"{current_time.strftime("%B")}|.mp4",En)[0]
     
-    #Eno= re.findall("S\d+E\d+\d", media.file_name)                   
     if len(DATEDAY)==0:
         await client.send_message(chat_id=message.chat.id, text="Error: invalid date please set /date")
     else:
@@ -87,10 +92,15 @@ async def channel_post(client: Client, message: Message):
     await asyncio.sleep(0.5)
     await bot_msg.edit("Wait Sending Photo ▣ ▣ ▣ ")
     await asyncio.sleep(0.5)
+    #withou Eno
+    #await client.send_photo(chat_id=chtid, photo=pic, caption=FOMET.format(Size, DATEDAY[-1], Slink, Slink))
+    #with Eno
     await client.send_photo(chat_id=chtid, photo=pic, caption=FOMET.format(Size, DATEDAY[-1], Slink, Slink))
     await asyncio.sleep(1)
-    await bot_msg.edit(BOTEFITMSG.format(filname, Tlink, Slink, Size, DATEDAY[-1])) #msg edit to "please wait...(see line 39" msg ==> and finally the elements belongs to sent serials are updated here
-    #await e_pic.edit) # msg edit in forwarder channel = "pic without captions (see line 41)" ==> thats return to our given format and short link ,date are updated here
+    #without Eno
+    #await bot_msg.edit(BOTEFITMSG.format(filname, Tlink, Slink, Size, DATEDAY[-1])) #msg edit to "please wait...(see line 39" msg ==> and finally the elements belongs to sent serials are updated here
+    #with E no
+    await bot_msg.edit(BOTEFITMSG.format(filname, Tlink, Slink, Size, DATEDAY[-1])) # msg edit in forwarder channel = "pic without captions (see line 41)" ==> thats return to our given format and short link ,date are updated here
 
 async def conv_link(client , message):
     try:
