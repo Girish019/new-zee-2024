@@ -57,7 +57,7 @@ async def channel_post(client: Client, message: Message):
                     SL_API=DATAODD[filname][2] #for particuler api 
                    # chtid=message.chat.id # if you want pic+formet into bot pm     
         
-            else int(DATEDAY[-1][0:2]) % 2 == 0: #checking for EVEN
+            elif int(DATEDAY[-1][0:2]) % 2 == 0: #checking for EVEN
                 if filname in DATAEVEN.keys():
                     chtid=int(DATAEVEN[filname][3])
                     pic=DATAEVEN[filname][0]
