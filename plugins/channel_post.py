@@ -34,13 +34,20 @@ async def channel_post(client: Client, message: Message):
 ################# FOR DS BOT ##################
     #filname = re.split(current_time.strftime("%B"), media.file_name)[0]#[1][2]etc   
 ################ FOR DS BOT 2nd CASE #############
-    prefile = re.split("Episode\s", message.caption)[1]
-    subfile = re.split("\s-\s",prefile)
-    Eno = subfile[0]
-    filname = f'{subfile[1].replace(" ", "_")}_'
+   
+        
 
     bot_msg = await message.reply_text("Please Wait...!", quote = True) #reply text please wait... to bot
     try:
+         if "ZEE5.WEB-DL" in message.caption:
+            prefile = re.split("Episode\s", message.caption)[1]
+            subfile = re.split("\s-\s",prefile)
+            Eno = subfile[0]
+            filname = f'{subfile[1].replace(" ", "_")}_'
+        elif "ZEE5.WEB-DL" in message.caption:
+            filname = re.split(current_time.strftime("%B"), media.file_name)[0]#[1][2]etc
+        else:
+            
         if len(DATEDAY)==0:
             await client.send_message(chat_id=message.chat.id, text="Error: invalid date please set /date")
         else:                
@@ -52,7 +59,7 @@ async def channel_post(client: Client, message: Message):
                     SL_API=DATAODD[filname][2] #for particuler api 
                    # chtid=message.chat.id # if you want pic+formet into bot pm     
                 else:
-                    reply_text = await message.reply_text("❌Somthing went wrong")
+                    reply_text = await message.reply_text("ELEMENT EXTRACTION FAILED")
         
             elif int(DATEDAY[-1][0:2]) % 2 == 0: #checking for EVEN
                 if filname in DATAEVEN.keys():
@@ -61,10 +68,8 @@ async def channel_post(client: Client, message: Message):
                     SL_URL=DATAEVEN[filname][1]
                     SL_API=DATAEVEN[filname][2]
                     # chtid=message.chat.id # if you want pic+formet into bot pm
-                    bot_msg = await message.reply_text("Please Wait...!", quote = True) #reply text please wait... to bot
-                    await asyncio.sleep(1)
                 else:
-                    reply_text = await message.reply_text("❌Somthing went wrong")
+                    reply_text = await message.reply_text("ELEMENT EXTRACTION FAILED")
             else:
                  reply_text = await message.reply_text(USER_REPLY_TEXT)
                 
