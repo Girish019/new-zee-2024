@@ -38,6 +38,7 @@ async def channel_post(client: Client, message: Message):
     subfile = re.split("\s-\s",prefile)
     Eno = subfile[0]
     filname = f'{subfile[1].replace(" ", "_")}_'
+
     
     if len(DATEDAY)==0:
         await client.send_message(chat_id=message.chat.id, text="Error: invalid date please set /date")
