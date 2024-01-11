@@ -35,8 +35,6 @@ async def channel_post(client: Client, message: Message):
     #filname = re.split(current_time.strftime("%B"), media.file_name)[0]#[1][2]etc   
 ################ FOR DS BOT 2nd CASE #############
    
-        
-
     bot_msg = await message.reply_text("Please Wait...!", quote = True) #reply text please wait... to bot
     try:
          if "ZEE5.WEB-DL" in message.caption:
@@ -44,10 +42,10 @@ async def channel_post(client: Client, message: Message):
             subfile = re.split("\s-\s",prefile)
             Eno = subfile[0]
             filname = f'{subfile[1].replace(" ", "_")}_'
-        elif "ZEE5.WEB-DL" in message.caption:
+        elif "JIOCINEMA.WEB-DL" in message.caption:
             filname = re.split(current_time.strftime("%B"), media.file_name)[0]#[1][2]etc
         else:
-            
+            await bot_msg.edit("FILENAME NOT MATCHED")
         if len(DATEDAY)==0:
             await client.send_message(chat_id=message.chat.id, text="Error: invalid date please set /date")
         else:                
@@ -59,7 +57,7 @@ async def channel_post(client: Client, message: Message):
                     SL_API=DATAODD[filname][2] #for particuler api 
                    # chtid=message.chat.id # if you want pic+formet into bot pm     
                 else:
-                    reply_text = await message.reply_text("ELEMENT EXTRACTION FAILED")
+                    await bot_msg.edit("ELEMENT EXTRACTION FAILED")
         
             elif int(DATEDAY[-1][0:2]) % 2 == 0: #checking for EVEN
                 if filname in DATAEVEN.keys():
@@ -69,9 +67,9 @@ async def channel_post(client: Client, message: Message):
                     SL_API=DATAEVEN[filname][2]
                     # chtid=message.chat.id # if you want pic+formet into bot pm
                 else:
-                    reply_text = await message.reply_text("ELEMENT EXTRACTION FAILED")
+                    await bot_msg.edit("ELEMENT EXTRACTION FAILED")
             else:
-                 reply_text = await message.reply_text(USER_REPLY_TEXT)
+                 await bot_msg.edit("Something went wrong")
                 
             Tlink = await conv_link(client , message)
             await asyncio.sleep(1)
