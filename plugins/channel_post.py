@@ -28,21 +28,20 @@ async def channel_post(client: Client, message: Message):
     current_time = datetime.now()
     media = message.video or message.document
     filname= media.file_name.split("Season")[0]#[1][2]etc
+    filname= media.file_name.split("Season")[0]#[1][2]etc
+    prefile = re.split("Season_",txt)[1]
+    subfile= re.split("_Episode_", prefile)
+    season = subfile[0] 
+    episode = re.split("_", subfile[1])[0]
+    Eno =f"S0{season}E{episode}"
 ############# FOR UTSAV BOT ##################
     #filname = re.split("S\d", media.file_name)[0]#[1][2]etc
     #Eno= re.findall("S\d+E\d+\d", media.file_name)
 ################# FOR DS BOT ##################
     #filname = re.split(current_time.strftime("%B"), media.file_name)[0]#[1][2]etc   
 ################ FOR DS BOT 2nd CASE #############
-   
     bot_msg = await message.reply_text("Please Wait...!", quote = True) #reply text please wait... to bot
     try:
-      filname= media.file_name.split("Season")[0]#[1][2]etc
-      prefile = re.split("Season_",txt)[1]
-      subfile= re.split("_Episode_", prefile)
-      season = subfile[0] 
-      episode = re.split("_", subfile[1])[0]
-      Eno =f"S0{season}E{episode}" 
         if len(DATEDAY)==0:
             await client.send_message(chat_id=message.chat.id, text="Error: invalid date please set /date")
         else:                
@@ -82,7 +81,6 @@ async def channel_post(client: Client, message: Message):
     except:
         link = await conv_link(client , message)
         await bot_msg.edit(f"<b>Here is your link</b>\n\n{link}\n\n<code>{link}</code>")
-
 
 
 async def conv_link(client , message):
