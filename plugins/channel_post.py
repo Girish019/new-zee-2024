@@ -35,8 +35,8 @@ async def channel_post(client: Client, message: Message):
     #filname = re.split(current_time.strftime("%B"), media.file_name)[0]#[1][2]etc   
 ################ FOR DS BOT 2nd CASE #############
    
-   bot_msg = await message.reply_text("Please Wait...!", quote = True) #reply text please wait... to bot
-   try:
+    bot_msg = await message.reply_text("Please Wait...!", quote = True) #reply text please wait... to bot
+    try:
       filname= media.file_name.split("Season")[0]#[1][2]etc
       prefile = re.split("Season_",txt)[1]
       subfile= re.split("_Episode_", prefile)
