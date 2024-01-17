@@ -29,7 +29,7 @@ async def channel_post(client: Client, message: Message):
     media = message.video or message.document
     filname= media.file_name.split("Season")[0]#[1][2]etc
     filname= media.file_name.split("Season")[0]#[1][2]etc
-    prefile = re.split("Season_",txt)[1]
+    prefile = re.split("Season_",media.file_name)[1]
     subfile= re.split("_Episode_", prefile)
     season = subfile[0] 
     episode = re.split("_", subfile[1])[0]
