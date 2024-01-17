@@ -36,16 +36,13 @@ async def channel_post(client: Client, message: Message):
 ################ FOR DS BOT 2nd CASE #############
    
    bot_msg = await message.reply_text("Please Wait...!", quote = True) #reply text please wait... to bot
-   # try:
-   #     if "ZEE5.WEB-DL" in message.caption:
-   #         prefile = re.split("Episode\s", message.caption)[1]
-   #         subfile = re.split("\s-\s",prefile)
-   #         Eno = subfile[0]
-   #         filname = f'{subfile[1].replace(" ", "_")}_'
-   #     elif "JIOCINEMA.WEB-DL" in message.caption:
-   #         filname = re.split(current_time.strftime("%B"), media.file_name)[0]#[1][2]etc
-   #     else:
-   #         await bot_msg.edit("FILENAME NOT MATCHED")
+   try:
+      filname= media.file_name.split("Season")[0]#[1][2]etc
+      prefile = re.split("Season_",txt)[1]
+      subfile= re.split("_Episode_", prefile)
+      season = subfile[0] 
+      episode = re.split("_", subfile[1])[0]
+      Eno =f"S0{season}E{episode}" 
         if len(DATEDAY)==0:
             await client.send_message(chat_id=message.chat.id, text="Error: invalid date please set /date")
         else:                
@@ -79,7 +76,7 @@ async def channel_post(client: Client, message: Message):
             await asyncio.sleep(0.5)
             await bot_msg.edit("Wait Sending Photo ▣ ▣ ▣ ")
             await asyncio.sleep(0.5)
-            await client.send_photo(chat_id=chtid, photo=pic, caption=FOMET.format(Size, DATEDAY[-1], Slink, Slink))
+            await client.send_photo(chat_id=chtid, photo=pic, caption=FOMET.format(Eno, Size, DATEDAY[-1], Slink, Slink))
             await asyncio.sleep(1)
             await bot_msg.edit(BOTEFITMSG.format(filname, Tlink, Slink, Size, DATEDAY[-1])) # msg edit in forwarder channel = "pic without captions (see line 41)" ==> thats return to our given format and short link ,date are updated here
     except:
