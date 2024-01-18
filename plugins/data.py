@@ -57,6 +57,7 @@ DATAODD = {
         'Jodi_No_1_Season_2_':['https://graph.org/file/034b0251e3e3cbc172ddf.jpg','tnvalue.in','e496ab76b42f51628da20bb69577397533008f3c','-1001942664190'],
         'Sa_Re_Ga_Ma_Pa_Season_20_':['https://graph.org/file/7ef74d66ba659081feab3.jpg','tnvalue.in','8fc4e5a5a7f1d571adfc7c02537d7c1e73da1a15','-1001942664190'],
         'Drama_Juniors_Season_5_':['https://graph.org/file/d8b1e16b46a0c6a4850fe.jpg','moneycase.link','f35b0c3ac535a200b3287c698b652e58b4689b6f','-1001942664190'],
+        'Lakshmi_Nivasa_':['https://graph.org/file/6306489e3155e6780acc8.jpg','linkshortify.com','9e82f5e0d917c633234194f39c2985752efd67e0','-1001942664190'],
   
         'Pavada_Purasha_':['https://graph.org/file/f65651907ba441187f7b1.jpg','tnvalue.in','ff426552eda72230153ea3450a0bce0557183ccb','-1001965277713'],
         'Olavina_Nildana_':['https://graph.org/file/441e02c5e145609e0eedd.jpg','upshrink.com','db8e518b1e15d2184e0dfe7467a6e6e92f4ccbf4','-1001965277713'],
@@ -129,6 +130,7 @@ DATAEVEN = {
         'Jodi_No_1_Season_2_':['https://graph.org/file/034b0251e3e3cbc172ddf.jpg','moneycase.link','f35b0c3ac535a200b3287c698b652e58b4689b6f','-1001942664190'],
         'Sa_Re_Ga_Ma_Pa_Season_20_':['https://graph.org/file/7ef74d66ba659081feab3.jpg','upshrink.com','db8e518b1e15d2184e0dfe7467a6e6e92f4ccbf4','-1001942664190'],
         'Drama_Juniors_Season_5_':['https://graph.org/file/d8b1e16b46a0c6a4850fe.jpg','tnvalue.in','e496ab76b42f51628da20bb69577397533008f3c','-1001942664190'],
+        'Lakshmi_Nivasa_':['https://graph.org/file/6306489e3155e6780acc8.jpg','tnshort.net','cfafc72b0df2558f0f5ad4e1c906ce9f783281e3','-1001942664190'],
   
         'Pavada_Purasha_':['https://graph.org/file/f65651907ba441187f7b1.jpg','upshrink.com','db8e518b1e15d2184e0dfe7467a6e6e92f4ccbf4','-1001965277713'],
         'Olavina_Nildana_':['https://graph.org/file/441e02c5e145609e0eedd.jpg','tnvalue.in','ff426552eda72230153ea3450a0bce0557183ccb','-1001965277713'],
