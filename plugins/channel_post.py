@@ -71,8 +71,7 @@ async def channel_post(client: Client, message: Message):
                        Slink = data["shortenedUrl"]
                return url
             except:
-               link = await conv_link(client , message)
-               await bot_msg.edit(f"<b>Here is your link</b>\n\n{link}\n\n<code>{link}</code>") 
+               pass 
             await bot_msg.edit("Analysing....!")
             await asyncio.sleep(1)
             Size = await get_size(media.file_size)
