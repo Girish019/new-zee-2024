@@ -11,7 +11,6 @@ from bot import Bot
 from config import ADMINS, CHANNEL_ID, DISABLE_CHANNEL_BUTTON
 from datetime import datetime
 from helper_func import encode
-from pyshorteners import Shortener
 import string
 import re
 
@@ -63,7 +62,7 @@ async def channel_post(client: Client, message: Message):
              
             Tlink = await conv_link(client , message)
             await asyncio.sleep(1)
-            Slink = await get_short(SL_URL, SL_API, Tlink) #generating short link with particular domine and api
+            Slink = asyncio.run(get_short(SL_URL, SL_API, Tlink)) #generating short link with particular domine and api
             await bot_msg.edit("Analysing....!")
             await asyncio.sleep(1)
             Size = await get_size(media.file_size)
@@ -99,18 +98,17 @@ async def conv_link(client , message):
     # await client.send_massage(message.chat.id , f"<b>Here is your link</b>\n\n{link}\n\n<code>{link}</code>", disable_web_page_preview = True)
     return link
 
-async def get_short(SL_URL, SL_API, Tlink): #A simple func for shorting link
-    # FireLinks shorten
-    try:
+async def get_short(SL_URL, SL_API, Tlink):
         api_url = f"https://{SL_URL}/api"
         params = {'api': SL_API, 'url': Tlink}
-        async with aiohttp.ClientSession() as session:
-            async with session.get(api_url, params=params, raise_for_status=True) as response:
-                data = await response.json()
-                url = data["shortenedUrl"]
-        return url
-    except Exception as error:
-        return error
+        try:
+           async with aiohttp.ClientSession() as session:
+               async with session.get(api_url, params=params) as resp:
+                   data = await resp.json()
+                   url = data["shortenedUrl"]
+           return url
+        except Exception as error:
+           return error
 
 async def get_size(size):
     """Get size in readable format"""
