@@ -62,17 +62,25 @@ async def channel_post(client: Client, message: Message):
              
             Tlink = await conv_link(client , message)
             await asyncio.sleep(1)
-            Slink = asyncio.run(get_short(SL_URL, SL_API, Tlink)) #generating short link with particular domine and api
+            api_url = f"https://{SL_URL}/api"
+            params = {'api': SL_API, 'url': Tlink}
+            try: #generating short link with particular domine and api
+               async with aiohttp.ClientSession() as session:
+                   async with session.get(api_url, params=params) as resp:
+                       data = await resp.json()
+                       Slink = data["shortenedUrl"]
+               return url
+            except:
+               link = await conv_link(client , message)
+               await bot_msg.edit(f"<b>Here is your link</b>\n\n{link}\n\n<code>{link}</code>") 
             await bot_msg.edit("Analysing....!")
             await asyncio.sleep(1)
             Size = await get_size(media.file_size)
             await bot_msg.edit("Getting size....!")
             await asyncio.sleep(1)
-            await bot_msg.edit("Wait Sending Post ▣ ▢ ▢ ")
-            await asyncio.sleep(0.5)
             await bot_msg.edit("Wait Sending Photo ▣ ▣ ▢ ")
             await asyncio.sleep(0.5)
-            await bot_msg.edit("Wait Sending Photo ▣ ▣ ▣ ")
+            await bot_msg.edit("Wait Sending Photo ▣ ▣ ▣ ▣ ")
             await asyncio.sleep(0.5)
             await client.send_photo(chat_id=chtid, photo=pic, caption=FOMET.format(Eno, Size, DATEDAY[-1], Slink, Slink))
             await asyncio.sleep(1)
@@ -99,17 +107,7 @@ async def conv_link(client , message):
     return link
 
 async def get_short(SL_URL, SL_API, Tlink):
-        api_url = f"https://{SL_URL}/api"
-        params = {'api': SL_API, 'url': Tlink}
-        try:
-           async with aiohttp.ClientSession() as session:
-               async with session.get(api_url, params=params) as resp:
-                   data = await resp.json()
-                   url = data["shortenedUrl"]
-           return url
-        except Exception as error:
-           return error
-
+        
 async def get_size(size):
     """Get size in readable format"""
 
