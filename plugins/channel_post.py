@@ -26,15 +26,21 @@ async def date(bot, message):
 async def channel_post(client: Client, message: Message):
     current_time = datetime.now()
     media = message.video or message.document
-    filname= media.file_name.split("Season")[0]#[1][2]etc
-    filname= media.file_name.split("Season")[0]#[1][2]etc
-    prefile = re.split("Season_",media.file_name)[1]
-    subfile= re.split("_Episode_", prefile)
-    season = subfile[0] 
-    episode = re.split("_", subfile[1])[0]
-    Eno =f"S0{season}E{episode}"
+############# FOR Ds BOT ##################
+    #filname= media.file_name.split("Season")[0]#[1][2]etc
+    #filname= media.file_name.split("Season")[0]#[1][2]etc
+    #prefile = re.split("Season_",media.file_name)[1]
+    #subfile= re.split("_Episode_", prefile)
+    #season = subfile[0] 
+    #episode = re.split("_", subfile[1])[0]
+    #Eno =f"S0{season}E{episode}"
+    
 ############# FOR UTSAV BOT ##################
-    #filname = re.split("S\d", media.file_name)[0]#[1][2]etc
+    media = media.file_name.replace(".","_")
+    if "January" in txt:
+        filname = re.split(current_time.strftime("%B"), media)[0]
+    else:
+        filname = re.split("S\d", media)[0]#[1][2]etc
     #Eno= re.findall("S\d+E\d+\d", media.file_name)
 ################# FOR DS BOT ##################
     #filname = re.split(current_time.strftime("%B"), media.file_name)[0]#[1][2]etc   
@@ -81,7 +87,7 @@ async def channel_post(client: Client, message: Message):
             await asyncio.sleep(0.5)
             await bot_msg.edit("Wait Sending Photo ▣ ▣ ▣ ▣ ")
             await asyncio.sleep(0.5)
-            await client.send_photo(chat_id=chtid, photo=pic, caption=FOMET.format(Eno, Size, DATEDAY[-1], Slink, Slink))
+            await client.send_photo(chat_id=chtid, photo=pic, caption=FOMET.format(Size, DATEDAY[-1], Slink, Slink))
             await asyncio.sleep(1)
             await bot_msg.edit(BOTEFITMSG.format(filname, Tlink, Slink, Size, DATEDAY[-1])) # msg edit in forwarder channel = "pic without captions (see line 41)" ==> thats return to our given format and short link ,date are updated here
     except:
