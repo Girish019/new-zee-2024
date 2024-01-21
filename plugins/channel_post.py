@@ -76,7 +76,7 @@ async def channel_post(client: Client, message: Message):
                    async with session.get(api_url, params=params) as resp:
                        data = await resp.json()
                        Slink = data["shortenedUrl"]
-               return url if url else "URL NOT FOUND"
+               return url if url else "URL_NOT_FOUND"
             except:
                pass 
             await bot_msg.edit("Analysing....!")
@@ -94,7 +94,7 @@ async def channel_post(client: Client, message: Message):
     except Exception as e:
         link = await conv_link(client , message)
         await bot_msg.edit(f"<b>Here is your link</b>\n\n{link}\n\n<code>{link}</code>\n\n<b>Exception couse :</b> {e}")
-        await message.reply_photo(chat_id=message.chat.id, photo=pic, caption=FOMET.format(Size, DATEDAY[-1]))
+        await message.reply_photo(chat_id=message.chat.id, photo=pic, caption=FOMET.format(Size, DATEDAY[-1], Slink, Slink))
 
 
 async def conv_link(client , message):
