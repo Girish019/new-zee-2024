@@ -36,11 +36,11 @@ async def channel_post(client: Client, message: Message):
     #Eno =f"S0{season}E{episode}"
     
 ############# FOR UTSAV BOT ##################
-    media = media.file_name.replace(".","_")
-    if "January" in media:
-        filname = re.split(current_time.strftime("%B"), media)[0]
+    medias = media.file_name.replace(".","_")
+    if current_time.strftime("%B") in media:
+        filname = re.split(current_time.strftime("%B"), medias)[0]
     else:
-        filname = re.split("S\d", media)[0]#[1][2]etc
+        filname = re.split("S\d", medias)[0]#[1][2]etc
     #Eno= re.findall("S\d+E\d+\d", media.file_name)
 ################# FOR DS BOT ##################
     #filname = re.split(current_time.strftime("%B"), media.file_name)[0]#[1][2]etc   
@@ -94,7 +94,7 @@ async def channel_post(client: Client, message: Message):
         emsg = await client.send_message(chat_id=message.chat.id, text=e)
         link = await conv_link(client , message)
         await bot_msg.edit(f"<b>Here is your link</b>\n\n{link}\n\n<code>{link}</code>")
-        await asyncio.sleep(10)
+        await asyncio.sleep(30)
         await emsg.delete()
 
 
