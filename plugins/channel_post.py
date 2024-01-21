@@ -72,15 +72,10 @@ async def channel_post(client: Client, message: Message):
             Tlink = await conv_link(client , message)
             await bot_msg.edit("Tlink generating....!")
             await asyncio.sleep(1)
-            api_url = f"https://{SL_URL}/api"
-            params = {'api': SL_API, 'url': Tlink}
-            try: #generating short link with particular domine and api
-               async with aiohttp.ClientSession() as session:
-                   async with session.get(api_url, params=params) as resp:
-                       data = await resp.json()
-                       Slink = data["shortenedUrl"]
-               return Slink
-            await bot_msg.edit("link short done....!")
+            Slink = get_short(SL_URL, SL_API, Tlink)
+            await bot_msg.edit("Slink generating....!")
+            await asyncio.sleep(1)
+            await bot_msg.edit("Sending post......!")
             await asyncio.sleep(1)
             await client.send_photo(chat_id=chtid, photo=pic, caption=FOMET.format(Size, DATEDAY[-1], Slink, Slink))
             await asyncio.sleep(1)
@@ -91,6 +86,17 @@ async def channel_post(client: Client, message: Message):
         Slink = "ERORR_ACCURED"
         await message.reply_photo(photo=pic, caption=FOMET.format(Size, DATEDAY[-1], Slink, Slink), quote = True)
 
+async def get_short(SL_URL, SL_API, Tlink): #generating short link with particular domine and api
+        api_url = f"https://{SL_URL}/api"
+        params = {'api': SL_API, 'url': Tlink}
+        try:
+           async with aiohttp.ClientSession() as session:
+               async with session.get(api_url, params=params) as resp:
+                   data = await resp.json()
+                   url = data["shortenedUrl"]
+           return url
+        #except Exception as error:
+         #  return error
 
 async def conv_link(client , message):
     try:
