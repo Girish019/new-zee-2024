@@ -95,8 +95,8 @@ async def get_short(SL_URL, SL_API, Tlink): #generating short link with particul
                    data = await resp.json()
                    url = data["shortenedUrl"]
            return url
-        #except Exception as error:
-         #  return error
+        except:
+           return 
 
 async def conv_link(client , message):
     try:
