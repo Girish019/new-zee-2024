@@ -90,9 +90,12 @@ async def channel_post(client: Client, message: Message):
             await client.send_photo(chat_id=chtid, photo=pic, caption=FOMET.format(Size, DATEDAY[-1], Slink, Slink))
             await asyncio.sleep(1)
             await bot_msg.edit(BOTEFITMSG.format(filname, Tlink, Slink, Size, DATEDAY[-1])) # msg edit in forwarder channel = "pic without captions (see line 41)" ==> thats return to our given format and short link ,date are updated here
-    except:
+    except Exception as e:
+        emsg = await client.send_message(chat_id=message.chat.id, text=e)
         link = await conv_link(client , message)
         await bot_msg.edit(f"<b>Here is your link</b>\n\n{link}\n\n<code>{link}</code>")
+        await asyncio.sleep(10)
+        await emsg.delete()
 
 
 async def conv_link(client , message):
