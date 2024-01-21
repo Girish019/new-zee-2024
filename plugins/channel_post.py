@@ -76,7 +76,7 @@ async def channel_post(client: Client, message: Message):
                    async with session.get(api_url, params=params) as resp:
                        data = await resp.json()
                        Slink = data["shortenedUrl"]
-               return Slink
+               return url if url else "URL NOT FOUND"
             except:
                pass 
             await bot_msg.edit("Analysing....!")
