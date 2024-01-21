@@ -76,7 +76,7 @@ async def channel_post(client: Client, message: Message):
                    async with session.get(api_url, params=params) as resp:
                        data = await resp.json()
                        Slink = data["shortenedUrl"]
-               return url
+               return Slink
             except:
                pass 
             await bot_msg.edit("Analysing....!")
@@ -92,11 +92,8 @@ async def channel_post(client: Client, message: Message):
             await asyncio.sleep(1)
             await bot_msg.edit(BOTEFITMSG.format(filname, Tlink, Slink, Size, DATEDAY[-1])) # msg edit in forwarder channel = "pic without captions (see line 41)" ==> thats return to our given format and short link ,date are updated here
     except Exception as e:
-        emsg = await client.send_message(chat_id=message.chat.id, text=e)
         link = await conv_link(client , message)
-        await bot_msg.edit(f"<b>Here is your link</b>\n\n{link}\n\n<code>{link}</code>")
-        await asyncio.sleep(30)
-        await emsg.delete()
+        await bot_msg.edit(f"<b>Here is your link</b>\n\n{link}\n\n<code>{link}</code>\n\n<b>Exception couse :</b> {e}")
 
 
 async def conv_link(client , message):
