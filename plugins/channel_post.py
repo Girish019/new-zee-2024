@@ -94,7 +94,7 @@ async def channel_post(client: Client, message: Message):
         Slink = "ERORR_ACCURED"
         link = await conv_link(client , message)
         await bot_msg.edit(f"<b>Here is your link</b>\n\n{link}\n\n<code>{link}</code>\n\n<b>Exception couse :</b> {e}")
-        await message.reply_photo(chat_id=message.chat.id, photo=pic, caption=FOMET.format(Size, DATEDAY[-1], Slink, Slink))
+        await message.reply_photo(photo=pic, caption=FOMET.format(Size, DATEDAY[-1], Slink, Slink))
 
 
 async def conv_link(client , message):
