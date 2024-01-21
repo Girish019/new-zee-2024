@@ -80,21 +80,15 @@ async def channel_post(client: Client, message: Message):
                        data = await resp.json()
                        Slink = data["shortenedUrl"]
                return Slink
-            except:
-               pass 
             await bot_msg.edit("link short done....!")
             await asyncio.sleep(1)
-            await bot_msg.edit("Wait Sending Photo ▣ ▣ ▢ ")
-            await asyncio.sleep(0.5)
-            await bot_msg.edit("Wait Sending Photo ▣ ▣ ▣ ▣ ")
-            await asyncio.sleep(0.5)
             await client.send_photo(chat_id=chtid, photo=pic, caption=FOMET.format(Size, DATEDAY[-1], Slink, Slink))
             await asyncio.sleep(1)
             await bot_msg.edit(BOTEFITMSG.format(filname, Tlink, Slink, Size, DATEDAY[-1])) # msg edit in forwarder channel = "pic without captions (see line 41)" ==> thats return to our given format and short link ,date are updated here
     except Exception as e:
-        Slink = "ERORR_ACCURED"
         link = await conv_link(client , message)
         await bot_msg.edit(f"<b>Here is your link</b>\n\n{link}\n\n<code>{link}</code>\n\n<b>Exception couse :</b> {e}")
+        Slink = "ERORR_ACCURED"
         await message.reply_photo(photo=pic, caption=FOMET.format(Size, DATEDAY[-1], Slink, Slink), quote = True)
 
 
