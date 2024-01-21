@@ -70,6 +70,7 @@ async def channel_post(client: Client, message: Message):
             await bot_msg.edit("Getting size....!")
             await asyncio.sleep(1)
             Tlink = await conv_link(client , message)
+            await bot_msg.edit("Tlink generating....!")
             await asyncio.sleep(1)
             api_url = f"https://{SL_URL}/api"
             params = {'api': SL_API, 'url': Tlink}
@@ -94,7 +95,7 @@ async def channel_post(client: Client, message: Message):
         Slink = "ERORR_ACCURED"
         link = await conv_link(client , message)
         await bot_msg.edit(f"<b>Here is your link</b>\n\n{link}\n\n<code>{link}</code>\n\n<b>Exception couse :</b> {e}")
-        await message.reply_photo(photo=pic, caption=FOMET.format(Size, DATEDAY[-1], Slink, Slink))
+        await message.reply_photo(photo=pic, caption=FOMET.format(Size, DATEDAY[-1], Slink, Slink), quote = True)
 
 
 async def conv_link(client , message):
