@@ -22,7 +22,7 @@ async def date(bot, message):
         			InlineKeyboardButton("Today",callback_data = 'tdy'), 
         			InlineKeyboardButton("Tommorow",callback_data='tmr') ]]))
 
-@Bot.on_message(filters.private & filters.user(ADMINS) & ~filters.text)
+@Client.on_message(filters.private & filters.user(ADMINS) & ~filters.text)
 async def channel_post(client: Client, message: Message):
     current_time = datetime.now()
     media = message.video or message.document
