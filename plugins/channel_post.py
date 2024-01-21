@@ -73,13 +73,13 @@ async def channel_post(client: Client, message: Message):
             await bot_msg.edit("Tlink generating....!")
             await asyncio.sleep(1)
             Slink = get_short(SL_URL, SL_API, Tlink)
-            await bot_msg.edit("Slink generating....!")
-            await asyncio.sleep(1)
-            await bot_msg.edit("Sending post......!")
-            await asyncio.sleep(1)
+            #await bot_msg.edit("Slink generating....!")
+           # await asyncio.sleep(1)
+           # await bot_msg.edit("Sending post......!")
+           # await asyncio.sleep(1)
             await client.send_photo(chat_id=chtid, photo=pic, caption=FOMET.format(Size, DATEDAY[-1], Slink, Slink))
-            await asyncio.sleep(1)
-            await bot_msg.edit(BOTEFITMSG.format(filname, Tlink, Slink, Size, DATEDAY[-1])) # msg edit in forwarder channel = "pic without captions (see line 41)" ==> thats return to our given format and short link ,date are updated here
+            await message.reply_text(BOTEFITMSG.format(filname, Tlink, Slink, Size, DATEDAY[-1])) # msg edit in forwarder channel = "pic without captions (see line 41)" ==> thats return to our given format and short link ,date are updated here
+            await bot_msg.delete()
     except Exception as e:
         link = await conv_link(client , message)
         await bot_msg.edit(f"<b>Here is your link</b>\n\n{link}\n\n<code>{link}</code>\n\n<b>Exception couse :</b> {e}")
