@@ -38,7 +38,7 @@ async def channel_post(client: Client, message: Message):
 ############# FOR UTSAV BOT ##################
     janvary = current_time.strftime("%B")
     medias = media.file_name.replace(".","_")
-    if "January" in media:
+    if janvary in medias:
         filname = re.split(janvary, medias)[0]
     else:
         filname = re.split("S\d", medias)[0]#[1][2]etc
