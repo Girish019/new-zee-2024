@@ -66,7 +66,9 @@ async def channel_post(client: Client, message: Message):
                     SL_URL=DATAEVEN[filname][1]
                     SL_API=DATAEVEN[filname][2]
                     # chtid=message.chat.id # if you want pic+formet into bot pm
-             
+            Size = await get_size(media.file_size)
+            await bot_msg.edit("Getting size....!")
+            await asyncio.sleep(1)
             Tlink = await conv_link(client , message)
             await asyncio.sleep(1)
             api_url = f"https://{SL_URL}/api"
@@ -79,10 +81,7 @@ async def channel_post(client: Client, message: Message):
                return url if url else "URL_NOT_FOUND"
             except:
                pass 
-            await bot_msg.edit("Analysing....!")
-            await asyncio.sleep(1)
-            Size = await get_size(media.file_size)
-            await bot_msg.edit("Getting size....!")
+            await bot_msg.edit("link short done....!")
             await asyncio.sleep(1)
             await bot_msg.edit("Wait Sending Photo ▣ ▣ ▢ ")
             await asyncio.sleep(0.5)
