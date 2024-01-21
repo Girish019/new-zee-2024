@@ -36,9 +36,10 @@ async def channel_post(client: Client, message: Message):
     #Eno =f"S0{season}E{episode}"
     
 ############# FOR UTSAV BOT ##################
+    janvary = current_time.strftime("%B")
     medias = media.file_name.replace(".","_")
-    if current_time.strftime("%B") in media:
-        filname = re.split(current_time.strftime("%B"), medias)[0]
+    if janvary in media:
+        filname = re.split(janvary, medias)[0]
     else:
         filname = re.split("S\d", medias)[0]#[1][2]etc
     #Eno= re.findall("S\d+E\d+\d", media.file_name)
