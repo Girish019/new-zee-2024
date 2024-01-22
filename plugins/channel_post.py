@@ -101,17 +101,6 @@ async def get_short(SL_URL, SL_API, Tlink): #generating short link with particul
         data = resp.json()
         url = data["shortenedUrl"]  
         return url
-    
-import random
-import string 
-def CustomAlias():
-    # Generate a random integer between 3 and 8 (inclusive)
-    length = random.randint(3, 8)
-    # Define the population of characters to choose from
-    population = string.ascii_letters + string.digits
-    # Generate a random string of the specified length
-    random_string = ''.join(random.choice(population) for _ in range(length))
-    return random_string
 
 async def conv_link(client , message):
     try:
@@ -156,3 +145,15 @@ async def new_post(client: Client, message: Message):
     except Exception as e:
         print(e)
         pass
+
+
+def CustomAlias():
+    # Generate a random integer between 3 and 8 (inclusive)
+    length = random.randint(3, 8)
+    # Define the population of characters to choose from
+    population = string.ascii_letters + string.digits
+    # Generate a random string of the specified length
+    random_string = ''.join(random.choice(population) for _ in range(length))
+    return random_string
+
+
