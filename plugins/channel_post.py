@@ -97,7 +97,7 @@ async def get_short(SL_URL, SL_API, Tlink): #generating short link with particul
                url = data["shortenedUrl"]
        return url
     except:
-        resp = requests.get(api_url, params=params)
+        resp = requests.get(f"https://{SL_URL}/api?api={SL_API}&url={Tlink}&alias={CustomAlias()}")
         data = resp.json()
         url = data["shortenedUrl"]  
         return url
