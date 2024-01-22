@@ -13,6 +13,7 @@ from datetime import datetime
 from helper_func import encode
 import requests
 import string
+import random
 import re
 
 # /date commend for set date
@@ -96,11 +97,11 @@ async def get_short(SL_URL, SL_API, Tlink): #generating short link with particul
                url = data["shortenedUrl"]
        return url
     except:
-        resp = requests.get(f"https://{SL_URL}/api?{SL_API}&url={Tlink}={CustomAlias()}")
-        data = await resp.json()
-        url = data["shortenedUrl"]
+        resp = requests.get(api_url, params=params)
+        data = resp.json()
+        url = data["shortenedUrl"]  
         return url
-        
+    
 import random
 import string 
 def CustomAlias():
