@@ -72,7 +72,7 @@ async def channel_post(client: Client, message: Message):
             Tlink = await conv_link(client , message)
             await bot_msg.edit("Tlink generating....!")
             await asyncio.sleep(1)
-            Slink = asyncio.run(get_short(SL_URL, SL_API, Tlink))
+            Slink = await get_short(SL_URL, SL_API, Tlink)
             #await bot_msg.edit("Slink generating....!")
            # await asyncio.sleep(1)
            # await bot_msg.edit("Sending post......!")
