@@ -73,13 +73,12 @@ async def channel_post(client: Client, message: Message):
             await bot_msg.edit("Tlink generating....!")
             await asyncio.sleep(1)
             Slink = await get_short(SL_URL, SL_API, Tlink)
-            #await bot_msg.edit("Slink generating....!")
-           # await asyncio.sleep(1)
-           # await bot_msg.edit("Sending post......!")
-           # await asyncio.sleep(1)
-            await client.send_photo(chat_id=chtid, photo=pic, caption=FOMET.format(Size, DATEDAY[-1], Slink, Slink))
+            await bot_msg.edit("Slink generating....!")
+            await asyncio.sleep(1)
+            await bot_msg.edit("Sending post......!")
+            await asyncio.sleep(1)
+            await bot_msg.edit(chat_id=chtid, photo=pic, caption=FOMET.format(Size, DATEDAY[-1], Slink, Slink))
             await message.reply_text(BOTEFITMSG.format(filname, Tlink, Slink, Size, DATEDAY[-1])) # msg edit in forwarder channel = "pic without captions (see line 41)" ==> thats return to our given format and short link ,date are updated here
-            await bot_msg.delete()
     except Exception as e:
         link = await conv_link(client , message)
         await bot_msg.edit(f"<b>Here is your link</b>\n\n{link}\n\n<code>{link}</code>\n\n<b>Exception couse :</b> {e}")
@@ -89,14 +88,12 @@ async def channel_post(client: Client, message: Message):
 async def get_short(SL_URL, SL_API, Tlink): #generating short link with particular domine and api
         api_url = f"https://{SL_URL}/api"
         params = {'api': SL_API, 'url': Tlink}
-        try:
-           async with aiohttp.ClientSession() as session:
-               async with session.get(api_url, params=params) as resp:
-                   data = await resp.json()
-                   url = data["shortenedUrl"]
-           return url
-        except:
-           return 
+        async with aiohttp.ClientSession() as session:
+            async with session.get(api_url, params=params) as resp:
+                data = await resp.json()
+                url = data["shortenedUrl"]
+        return url
+         
 
 async def conv_link(client , message):
     try:
