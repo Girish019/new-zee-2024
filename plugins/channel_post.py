@@ -11,6 +11,7 @@ from bot import Bot
 from config import ADMINS, CHANNEL_ID, DISABLE_CHANNEL_BUTTON
 from datetime import datetime
 from helper_func import encode
+import requests
 import string
 import re
 
@@ -96,7 +97,7 @@ async def get_short(SL_URL, SL_API, Tlink): #generating short link with particul
        return url
     except:
         resp = requests.get(f"https://{SL_URL}/api?{SL_API}&url={Tlink}={CustomAlias()}")
-        data = resp.json()
+        data = await resp.json()
         url = data["shortenedUrl"]
         return url
         
