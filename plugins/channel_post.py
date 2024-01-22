@@ -86,14 +86,30 @@ async def channel_post(client: Client, message: Message):
         await message.reply_photo(photo=pic, caption=FOMET.format(Size, DATEDAY[-1], Slink, Slink), quote = True)
 
 async def get_short(SL_URL, SL_API, Tlink): #generating short link with particular domine and api
-        api_url = f"https://{SL_URL}/api"
-        params = {'api': SL_API, 'url': Tlink}
-        async with aiohttp.ClientSession() as session:
-            async with session.get(api_url, params=params) as resp:
-                data = await resp.json()
-                url = data["shortenedUrl"]
+    try:
+       api_url = f"https://{SL_URL}/api"
+       params = {'api': SL_API, 'url': Tlink}
+       async with aiohttp.ClientSession() as session:
+           async with session.get(api_url, params=params) as resp:
+               data = await resp.json()
+               url = data["shortenedUrl"]
+       return url
+    except:
+        resp = requests.get(f"https://{SL_URL}/api?{SL_API}&url={Tlink}={CustomAlias()}")
+        data = resp.json()
+        url = data["shortenedUrl"]
         return url
-         
+        
+import random
+import string 
+def CustomAlias():
+    # Generate a random integer between 3 and 8 (inclusive)
+    length = random.randint(3, 8)
+    # Define the population of characters to choose from
+    population = string.ascii_letters + string.digits
+    # Generate a random string of the specified length
+    random_string = ''.join(random.choice(population) for _ in range(length))
+    return random_string
 
 async def conv_link(client , message):
     try:
