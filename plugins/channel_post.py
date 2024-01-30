@@ -38,18 +38,18 @@ async def channel_post(client: Client, message: Message):
     #Eno =f"S0{season}E{episode}"
     
 ############# FOR UTSAV BOT ##################
-    janvary = current_time.strftime("%B")
-    medias = media.file_name.replace(".","_")
-    if janvary in medias:
-        filname = re.split(janvary, medias)[0]
-    else:
-        filname = re.split("S\d", medias)[0]#[1][2]etc
     #Eno= re.findall("S\d+E\d+\d", media.file_name)
 ################# FOR DS BOT ##################
     #filname = re.split(current_time.strftime("%B"), media.file_name)[0]#[1][2]etc   
 ################ FOR DS BOT 2nd CASE #############
     bot_msg = await message.reply_text("Please Wait...!", quote = True) #reply text please wait... to bot
     try:
+        janvary = current_time.strftime("%B")
+        medias = media.file_name.replace(".","_")
+        if janvary in medias:
+            filname = re.split(janvary, medias)[0]
+        else:
+            filname = re.split("S\d", medias)[0]#[1][2]etc
         if len(DATEDAY)==0:
             await client.send_message(chat_id=message.chat.id, text="Error: invalid date please set /date")
         else:                
