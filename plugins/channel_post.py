@@ -44,12 +44,12 @@ async def channel_post(client: Client, message: Message):
 ################ FOR DS BOT 2nd CASE #############
     bot_msg = await message.reply_text("Please Wait...!", quote = True) #reply text please wait... to bot
     try:
-        janvary = current_time.strftime("%B")
+        #janvary = current_time.strftime("%B")
         medias = media.file_name.replace(".","_")
-        if janvary in medias:
-            filname = re.split(janvary, medias)[0]
-        else:
-            filname = re.split("S\d", medias)[0]#[1][2]etc
+        #if janvary in medias:
+            #filname = re.split(janvary, medias)[0]
+        #else:
+        filname = re.split("S\d\d", medias)[0]#[1][2]etc
         if len(DATEDAY)==0:
             await client.send_message(chat_id=message.chat.id, text="Error: invalid date please set /date")
         else:                
