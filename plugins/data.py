@@ -172,10 +172,10 @@ DATAEVEN = {
         'Ramachari_':['https://graph.org/file/f590c3585b4c0068df630.jpg','linkshortify.com','4bc6f1e34d0409e5b8bd2197d42462bb1ec6048a','-1001965277713'],
         ######### TNVALUE ##########
         'Shreegowri_':['https://graph.org/file/b12919aaec86f1c32a2e7.jpg','tnvalue.in','8fc4e5a5a7f1d571adfc7c02537d7c1e73da1a15','-1001965277713'],
-        'Kendasampige_':['https://graph.org/file/62c90177d09f7cf416e6c.jpg','upshrink.com','4a6aae0ff4e202d6c04695352f6409511f2a0642','-1001965277713'],
+        'Kendasampige_':['https://graph.org/file/62c90177d09f7cf416e6c.jpg','gyanilinks.com','48dcae9aa066bd2577204960ddefcadf00e02a77','-1001965277713'],
         ######### TNSHORT ##########
         'Pavada_Purasha_':['https://graph.org/file/f65651907ba441187f7b1.jpg','gyanilinks.com','a22f51811990f630f92999a71dd9ae8f8505f0fd','-1001965277713'],
-        'Shiva_Shakthi_':['https://te.legra.ph/file/cd50cd7409c99d938aace.jpg','Upshrink.com','db8e518b1e15d2184e0dfe7467a6e6e92f4ccbf4','-1001965277713'],
+        'Shiva_Shakthi_':['https://te.legra.ph/file/cd50cd7409c99d938aace.jpg','tnshort.net','cfafc72b0df2558f0f5ad4e1c906ce9f783281e3','-1001965277713'],
         ######### UPSHRINK ########## 
         'Shantham_Papam_':['https://graph.org/file/fa897d25d4d944e8487d5.jpg','upshrink.com','7864f20bc9c1eb4c29769f820c1069ddd21dfe94','-1001965277713'],
         'Muddu_Bangara_':['https://graph.org/file/49001901d7ccbf8698935.jpg','upshrink.com','db8e518b1e15d2184e0dfe7467a6e6e92f4ccbf4','-1001965277713'],
