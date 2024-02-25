@@ -73,7 +73,7 @@ DATAODD = {
   
         ######### PUBLICEARN ##########
         'Antarapata_':['https://graph.org/file/ea08c222d4848f1661e3c.jpg','publicearn.com','473c08dc24bf90aa3694e0365978e93b900a8b5e','-1001965277713'],
-        'Karimani_':['https://v3img.voot.com/v3Storage/assets/16x9-1708446647241.jpg','publicearn.com','464106b92f625bb080da1a9170abcc819e346820','-1001965277713'],
+        'Karimani_':['https://graph.org/file/309839d1a79ec3835a776.jpg','publicearn.com','464106b92f625bb080da1a9170abcc819e346820','-1001965277713'],
         'Ramachari_':['https://graph.org/file/f590c3585b4c0068df630.jpg','publicearn.com','7a31310702b8f319804ab699cfde6303ee7d35fa','-1001965277713'],
         ######### LINKSHORTIFY ##########
         'Brundavana_':['https://te.legra.ph/file/400cc7b9a9dcc1c1d230e.jpg','linkshortify.com','8a9a3df5db074b2b1ad10efcd383e5243118447b','-1001965277713'],
@@ -169,7 +169,7 @@ DATAEVEN = {
         'Bhagyalakshmi_':['https://graph.org/file/261d0c995b5e2a434093b.jpg','publicearn.com','7a31310702b8f319804ab699cfde6303ee7d35fa','-1001965277713'],
         ######### LINKSHORTIFY ##########
         'Antarapata_':['https://graph.org/file/ea08c222d4848f1661e3c.jpg','linkshortify.com','8a9a3df5db074b2b1ad10efcd383e5243118447b','-1001965277713'],
-        'Karimani_':['https://v3img.voot.com/v3Storage/assets/16x9-1708446647241.jpg','linkshortify.com','9e82f5e0d917c633234194f39c2985752efd67e0','-1001965277713'],
+        'Karimani_':['https://graph.org/file/309839d1a79ec3835a776.jpg','linkshortify.com','9e82f5e0d917c633234194f39c2985752efd67e0','-1001965277713'],
         'Ramachari_':['https://graph.org/file/f590c3585b4c0068df630.jpg','linkshortify.com','4bc6f1e34d0409e5b8bd2197d42462bb1ec6048a','-1001965277713'],
         ######### TNVALUE ##########
         'Shreegowri_':['https://graph.org/file/b12919aaec86f1c32a2e7.jpg','tnvalue.in','8fc4e5a5a7f1d571adfc7c02537d7c1e73da1a15','-1001965277713'],
