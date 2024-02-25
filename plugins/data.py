@@ -73,7 +73,7 @@ DATAODD = {
   
         ######### PUBLICEARN ##########
         'Antarapata_':['https://graph.org/file/ea08c222d4848f1661e3c.jpg','publicearn.com','473c08dc24bf90aa3694e0365978e93b900a8b5e','-1001965277713'],
-        'Geetha_':['https://graph.org/file/e95baeeafbf180bd184e1.jpg','publicearn.com','464106b92f625bb080da1a9170abcc819e346820','-1001965277713'],
+        'Karimani_':['https://v3img.voot.com/v3Storage/assets/16x9-1708446647241.jpg','publicearn.com','464106b92f625bb080da1a9170abcc819e346820','-1001965277713'],
         'Ramachari_':['https://graph.org/file/f590c3585b4c0068df630.jpg','publicearn.com','7a31310702b8f319804ab699cfde6303ee7d35fa','-1001965277713'],
         ######### LINKSHORTIFY ##########
         'Brundavana_':['https://te.legra.ph/file/400cc7b9a9dcc1c1d230e.jpg','linkshortify.com','8a9a3df5db074b2b1ad10efcd383e5243118447b','-1001965277713'],
@@ -82,6 +82,7 @@ DATAODD = {
         ######### TNVALUE ##########
         'Pavada_Purasha_':['https://graph.org/file/f65651907ba441187f7b1.jpg','tnvalue.in','ff426552eda72230153ea3450a0bce0557183ccb','-1001965277713'],
         'Shiva_Shakthi_':['https://te.legra.ph/file/cd50cd7409c99d938aace.jpg','gyanilinks.com','48dcae9aa066bd2577204960ddefcadf00e02a77','-1001965277713'],
+        'Geetha_':['https://graph.org/file/e95baeeafbf180bd184e1.jpg','tnvalue.in','8fc4e5a5a7f1d571adfc7c02537d7c1e73da1a15','-1001965277713'],
         ######### TNSHORT ##########
         'Kendasampige_':['https://graph.org/file/62c90177d09f7cf416e6c.jpg','tnshort.net','1183b34c88b1fd4e898d7d9dc7b6fc6a2bea9dd9','-1001965277713'],
         'Shreegowri_':['https://graph.org/file/b12919aaec86f1c32a2e7.jpg','gyanilinks.com','48dcae9aa066bd2577204960ddefcadf00e02a77','-1001965277713'],
@@ -91,7 +92,7 @@ DATAODD = {
         'Gunasundari_':['https://graph.org/file/8d4b6b2e9703a7d97b546.jpg','upshrink.com','db8e518b1e15d2184e0dfe7467a6e6e92f4ccbf4','-1001965277713'],
         ########## WEEKEND SHOES ############
         'Nannamma_Super_Star_':['https://graph.org/file/ab2d6a3f742ae672d6bd9.jpg','tnvalue.in','ff426552eda72230153ea3450a0bce0557183ccb','-1001965277713'],
-        'Gicchi_GiliGili_S03E01_':['https://graph.org/file/f976af3c7b381c9649b94.jpg','tnshort.net','1183b34c88b1fd4e898d7d9dc7b6fc6a2bea9dd9','-1001335177183'],
+        'Gicchi_GiliGili_':['https://graph.org/file/f976af3c7b381c9649b94.jpg','tnshort.net','1183b34c88b1fd4e898d7d9dc7b6fc6a2bea9dd9','-1001335177183'],
         'Family_Gangstars_':['https://graph.org/file/d08c55a1b259a3b5c95b7.jpg','tnvalue.in','ff426552eda72230153ea3450a0bce0557183ccb','-1001965277713'],
         'Bigg_Boss_Kannada_':['https://graph.org/file/011900e64399568f3fe93.jpg','linkshortify.com','4bc6f1e34d0409e5b8bd2197d42462bb1ec6048a','-1001335177183'],
         # OLD SHOES WASTE
@@ -163,12 +164,12 @@ DATAEVEN = {
 
   
         ######### PUBLICEARN ##########
-        'Brundavana_':['https://te.legra.ph/file/400cc7b9a9dcc1c1d230e.jpg','linkspublicearn.com','473c08dc24bf90aa3694e0365978e93b900a8b5e','-1001965277713'],
+        'Brundavana_':['https://te.legra.ph/file/400cc7b9a9dcc1c1d230e.jpg','publicearn.com','473c08dc24bf90aa3694e0365978e93b900a8b5e','-1001965277713'],
         'Lakshmi_Baramma_':['https://graph.org/file/be3588e70978523792514.jpg','publicearn.com','464106b92f625bb080da1a9170abcc819e346820','-1001965277713'],
         'Bhagyalakshmi_':['https://graph.org/file/261d0c995b5e2a434093b.jpg','publicearn.com','7a31310702b8f319804ab699cfde6303ee7d35fa','-1001965277713'],
         ######### LINKSHORTIFY ##########
         'Antarapata_':['https://graph.org/file/ea08c222d4848f1661e3c.jpg','linkshortify.com','8a9a3df5db074b2b1ad10efcd383e5243118447b','-1001965277713'],
-        'Geetha_':['https://graph.org/file/e95baeeafbf180bd184e1.jpg','linkshortify.com','9e82f5e0d917c633234194f39c2985752efd67e0','-1001965277713'],
+        'Karimani_':['https://v3img.voot.com/v3Storage/assets/16x9-1708446647241.jpg','linkshortify.com','9e82f5e0d917c633234194f39c2985752efd67e0','-1001965277713'],
         'Ramachari_':['https://graph.org/file/f590c3585b4c0068df630.jpg','linkshortify.com','4bc6f1e34d0409e5b8bd2197d42462bb1ec6048a','-1001965277713'],
         ######### TNVALUE ##########
         'Shreegowri_':['https://graph.org/file/b12919aaec86f1c32a2e7.jpg','tnvalue.in','8fc4e5a5a7f1d571adfc7c02537d7c1e73da1a15','-1001965277713'],
@@ -176,13 +177,14 @@ DATAEVEN = {
         ######### TNSHORT ##########
         'Pavada_Purasha_':['https://graph.org/file/f65651907ba441187f7b1.jpg','gyanilinks.com','a22f51811990f630f92999a71dd9ae8f8505f0fd','-1001965277713'],
         'Shiva_Shakthi_':['https://te.legra.ph/file/cd50cd7409c99d938aace.jpg','tnshort.net','cfafc72b0df2558f0f5ad4e1c906ce9f783281e3','-1001965277713'],
+        'Geetha_':['https://graph.org/file/e95baeeafbf180bd184e1.jpg','tnshort.net','1183b34c88b1fd4e898d7d9dc7b6fc6a2bea9dd9','-1001965277713'],
         ######### UPSHRINK ########## 
         'Shantham_Papam_':['https://graph.org/file/fa897d25d4d944e8487d5.jpg','upshrink.com','7864f20bc9c1eb4c29769f820c1069ddd21dfe94','-1001965277713'],
         'Muddu_Bangara_':['https://graph.org/file/49001901d7ccbf8698935.jpg','upshrink.com','db8e518b1e15d2184e0dfe7467a6e6e92f4ccbf4','-1001965277713'],
         'Gunasundari_':['https://graph.org/file/8d4b6b2e9703a7d97b546.jpg','tnvalue.in','ff426552eda72230153ea3450a0bce0557183ccb','-1001965277713'],
         ########## WEEKEND SHOES ############
         'Nannamma_Super_Star_':['https://graph.org/file/ab2d6a3f742ae672d6bd9.jpg','tnvalue.in','ff426552eda72230153ea3450a0bce0557183ccb','-1001965277713'],
-        'Gicchi_GiliGili_S03E01_':['https://graph.org/file/f976af3c7b381c9649b94.jpg','tnshort.net','1183b34c88b1fd4e898d7d9dc7b6fc6a2bea9dd9','-1001335177183'],
+        'Gicchi_GiliGili_':['https://graph.org/file/f976af3c7b381c9649b94.jpg','tnshort.net','1183b34c88b1fd4e898d7d9dc7b6fc6a2bea9dd9','-1001335177183'],
         'Family_Gangstars_':['https://graph.org/file/d08c55a1b259a3b5c95b7.jpg','upshrink.com','db8e518b1e15d2184e0dfe7467a6e6e92f4ccbf4','-1001965277713'],
         'Bigg_Boss_Kannada_':['https://graph.org/file/011900e64399568f3fe93.jpg','publicearn.com','7a31310702b8f319804ab699cfde6303ee7d35fa','-1001335177183'],
         # OLD SHOES WASTE
