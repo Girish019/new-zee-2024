@@ -79,7 +79,7 @@ async def channel_post(client: Client, message: Message):
             await asyncio.sleep(1)
             await bot_msg.edit("Sending post......!")
             await asyncio.sleep(1)
-            await client.send_photo(chat_id=chtid, photo=pic, caption=FOMET.format(Size, DATEDAY[-1], Slink, Slink))
+            await client.send_photo(chat_id=chtid, photo=pic, caption=FOMET.format(DATEDAY[-1], Size, Slink, Slink))
             await bot_msg.edit(BOTEFITMSG.format(filname, Tlink, Slink, Size, DATEDAY[-1])) # msg edit in forwarder channel = "pic without captions (see line 41)" ==> thats return to our given format and short link ,date are updated here
     except Exception as e:
         link = await conv_link(client , message)
