@@ -86,7 +86,7 @@ async def channel_post(client: Client, message: Message):
         link = await conv_link(client , message)
         await bot_msg.edit(f"<b>Here is your link</b>\n\n{link}\n\n<code>{link}</code>\n\n<b>Exception couse :</b> {e}")
         Slink = "ERORR_ACCURED"
-        await message.reply_photo(photo=pic, caption=FOMET.format(Size, DATEDAY[-1], Slink, Slink), quote = True)
+        await message.reply_photo(photo=pic, caption=FOMET.format(DATEDAY[-1], Eno[0], Size, Slink, Slink), quote = True)
 
 async def get_short(SL_URL, SL_API, Tlink): #generating short link with particular domine and api
     try:
