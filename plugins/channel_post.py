@@ -50,6 +50,7 @@ async def channel_post(client: Client, message: Message):
             #filname = re.split(janvary, medias)[0]
         #else:
         filname = re.split("S\d\d", medias)[0]#[1][2]etc
+        Eno= re.findall("S\d+E\d+\d", medias)
         if len(DATEDAY)==0:
             await client.send_message(chat_id=message.chat.id, text="Error: invalid date please set /date")
         else:                
@@ -79,7 +80,7 @@ async def channel_post(client: Client, message: Message):
             await asyncio.sleep(1)
             await bot_msg.edit("Sending post......!")
             await asyncio.sleep(1)
-            await client.send_photo(chat_id=chtid, photo=pic, caption=FOMET.format(DATEDAY[-1], Size, Slink, Slink))
+            await client.send_photo(chat_id=chtid, photo=pic, caption=FOMET.format(DATEDAY[-1], Eno, Size, Slink, Slink))
             await bot_msg.edit(BOTEFITMSG.format(filname, Tlink, Slink, Size, DATEDAY[-1])) # msg edit in forwarder channel = "pic without captions (see line 41)" ==> thats return to our given format and short link ,date are updated here
     except Exception as e:
         link = await conv_link(client , message)
