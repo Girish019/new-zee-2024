@@ -63,6 +63,7 @@ DATAODD = {
         'Punarvivaha_':['https://graph.org/file/70d5850fd6e9ed8cd7bc0.jpg','upshrink.com','4a6aae0ff4e202d6c04695352f6409511f2a0642','-1001942664190'],
         'Manemagalu_':['https://graph.org/file/979b1125f1b333d1b8b07.jpg','upshrink.com','db8e518b1e15d2184e0dfe7467a6e6e92f4ccbf4','-1001942664190'],
         'Sandhyaraaga_':['https://graph.org/file/98ef89a04dd66bef924ea.jpg','upshrink.com','4a6aae0ff4e202d6c04695352f6409511f2a0642','-1001942664190'],
+        'Naagamandala_':['https://graph.org/file/ba8ff993b1c246334692c.jpg','upshrink.com','db8e518b1e15d2184e0dfe7467a6e6e92f4ccbf4','-1001942664190'],
         'Mahanayaka_Dr_B_R_Ambedkar_':['https://graph.org/file/6faf520d534a49f6742bb.jpg','gyanilinks.com','a22f51811990f630f92999a71dd9ae8f8505f0fd','-1001942664190'],
         ########## WEEKEND SHOES ############
         'Sa_Re_Ga_Ma_Pa_Season_20_':['https://graph.org/file/7ef74d66ba659081feab3.jpg','tnshort.net','1183b34c88b1fd4e898d7d9dc7b6fc6a2bea9dd9','-1001942664190'],
@@ -156,7 +157,8 @@ DATAEVEN = {
         'Punarvivaha_':['https://graph.org/file/70d5850fd6e9ed8cd7bc0.jpg','upshrink.com','7864f20bc9c1eb4c29769f820c1069ddd21dfe94','-1001942664190'],
         'Manemagalu_':['https://graph.org/file/979b1125f1b333d1b8b07.jpg','upshrink.com','4a6aae0ff4e202d6c04695352f6409511f2a0642','-1001942664190'],
         'Sandhyaraaga_':['https://graph.org/file/98ef89a04dd66bef924ea.jpg','upshrink.com','7864f20bc9c1eb4c29769f820c1069ddd21dfe94','-1001942664190'],
-        'Mahanayaka_Dr_B_R_Ambedkar_':['https://graph.org/file/6faf520d534a49f6742bb.jpg','gyanilinks.com','48dcae9aa066bd2577204960ddefcadf00e02a77','-1001942664190'],
+        'Naagamandala_ ':['https://graph.org/file/ba8ff993b1c246334692c.jpg','upshrink.com','db8e518b1e15d2184e0dfe7467a6e6e92f4ccbf4','-1001942664190'],
+        'Mahanayaka_Dr_B_R_Ambedkar_':['https://graph.org/file/6faf520d534a49f6742bb.jpg','gyanilinks.com','4a6aae0ff4e202d6c04695352f6409511f2a0642','-1001942664190'],
         ########## WEEKEND SHOES ############
         'Sa_Re_Ga_Ma_Pa_Season_20_':['https://graph.org/file/7ef74d66ba659081feab3.jpg','tnvalue.in','ff426552eda72230153ea3450a0bce0557183ccb','-1001942664190'],
         'Drama_Juniors_Season_5_':['https://graph.org/file/d8b1e16b46a0c6a4850fe.jpg','tnshort.net','1183b34c88b1fd4e898d7d9dc7b6fc6a2bea9dd9','-1001942664190'],
@@ -202,7 +204,7 @@ DATAEVEN = {
         'Namma_Lachi_':['https://graph.org/file/b315e59c10e04d1b2e595.jpg','publicearn.com','464106b92f625bb080da1a9170abcc819e346820','-1001901182731'],
         'Aase_':['https://te.legra.ph/file/2e41e0ab4cf35e473de3c.jpg','publicearn.com','7a31310702b8f319804ab699cfde6303ee7d35fa','-1001901182731'],
         ######### LINKSHORTIFY ##########
-        'Kasthuri':['https://graph.org/file/fa78cde52d839a6813b9b.jpg','linkshortify.com','8a9a3df5db074b2b1ad10efcd383e5243118447b','-1001901182731'],
+        'Kasthuri_':['https://graph.org/file/fa78cde52d839a6813b9b.jpg','linkshortify.com','8a9a3df5db074b2b1ad10efcd383e5243118447b','-1001901182731'],
         'Kaveri_Kannada_Medium_':['https://graph.org/file/ba76be791996ad8f45928.jpg','linkshortify.com','9e82f5e0d917c633234194f39c2985752efd67e0','-1001901182731'],
         'Neenadhe_Naa_':['https://graph.org/file/fcbbf0a8c0413d4a59ad9.jpg','linkshortify.com','4bc6f1e34d0409e5b8bd2197d42462bb1ec6048a','-1001901182731'],
         ######### TNVALUE ##########
