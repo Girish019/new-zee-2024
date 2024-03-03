@@ -6,16 +6,15 @@
 FOMET = """
 𝕯𝖆𝖙𝖊 ➻ <b>{}</b>
 
-єριѕσ∂є иσ ➺ <b>[{}],</b> <b>{}</b>
+єριѕσ∂є иσ ➺ <b>[{}},</b> <b>{}</b>
 
                        ⚜⚜⚜⍟⚜⚜⚜   
              𝐔𝐩𝐥𝐨𝐚𝐝𝐞𝐝 𝐛𝐲  ➠  @Dot_serials_bot 
 
  ▬▬▬▬▬▬ ☆✯✮★ ❂ ★✮✯☆ ▬▬▬▬▬▬
-    YOUR EPISODE LINK 🔗 
-<b>{}</b>
-<b>{}</b>
-
+ 
+<b>LINK⇎{}</b>
+<b>LINK⇎{}</b>
         👀👩‍💻 𝐇𝐨𝐰 𝐭𝐨 𝐨𝐩𝐞𝐧 👩‍💻👀
 https://t.me/+Sb5ro1gyhgY0NWM1
 https://t.me/+Sb5ro1gyhgY0NWM1
