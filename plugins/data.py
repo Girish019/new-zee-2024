@@ -90,7 +90,7 @@ DATAODD = {
         'Gunasundari_':['https://graph.org/file/8d4b6b2e9703a7d97b546.jpg','upshrink.com','db8e518b1e15d2184e0dfe7467a6e6e92f4ccbf4','-1001965277713'],
         ########## WEEKEND SHOES ############
         'Nannamma_Super_Star_':['https://graph.org/file/ab2d6a3f742ae672d6bd9.jpg','tnvalue.in','ff426552eda72230153ea3450a0bce0557183ccb','-1001965277713'],
-        'Gicchi_GiliGili_':['https://graph.org/file/f976af3c7b381c9649b94.jpg','tnshort.net','1183b34c88b1fd4e898d7d9dc7b6fc6a2bea9dd9','-1001335177183'],
+        'Gicchi_GiliGili_':['https://graph.org/file/f976af3c7b381c9649b94.jpg','tnshort.net','1183b34c88b1fd4e898d7d9dc7b6fc6a2bea9dd9','-1001965277713'],
         'Family_Gangstars_':['https://graph.org/file/d08c55a1b259a3b5c95b7.jpg','tnvalue.in','ff426552eda72230153ea3450a0bce0557183ccb','-1001965277713'],
         'Bigg_Boss_Kannada_':['https://graph.org/file/011900e64399568f3fe93.jpg','linkshortify.com','4bc6f1e34d0409e5b8bd2197d42462bb1ec6048a','-1001335177183'],
         # OLD SHOES WASTE
@@ -186,7 +186,7 @@ DATAEVEN = {
         'Gunasundari_':['https://graph.org/file/8d4b6b2e9703a7d97b546.jpg','tnvalue.in','ff426552eda72230153ea3450a0bce0557183ccb','-1001965277713'],
         ########## WEEKEND SHOES ############
         'Nannamma_Super_Star_':['https://graph.org/file/ab2d6a3f742ae672d6bd9.jpg','tnvalue.in','ff426552eda72230153ea3450a0bce0557183ccb','-1001965277713'],
-        'Gicchi_GiliGili_':['https://graph.org/file/f976af3c7b381c9649b94.jpg','tnshort.net','1183b34c88b1fd4e898d7d9dc7b6fc6a2bea9dd9','-1001335177183'],
+        'Gicchi_GiliGili_':['https://graph.org/file/f976af3c7b381c9649b94.jpg','tnshort.net','1183b34c88b1fd4e898d7d9dc7b6fc6a2bea9dd9','-1001965277713'],
         'Family_Gangstars_':['https://graph.org/file/d08c55a1b259a3b5c95b7.jpg','upshrink.com','db8e518b1e15d2184e0dfe7467a6e6e92f4ccbf4','-1001965277713'],
         'Bigg_Boss_Kannada_':['https://graph.org/file/011900e64399568f3fe93.jpg','publicearn.com','7a31310702b8f319804ab699cfde6303ee7d35fa','-1001335177183'],
         # OLD SHOES WASTE
