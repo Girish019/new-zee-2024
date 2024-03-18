@@ -49,7 +49,7 @@ DATAODD = {
         ######### TNVALUE ##########
         'Trinayani_':['https://graph.org/file/1f2827a0980cc418ee6e1.jpg','tnvalue.in','ff426552eda72230153ea3450a0bce0557183ccb','-1001942664190'],
         'Soubhagyavati_Bhava_':['https://graph.org/file/2d34fb7705e6ecb7c5937.jpg','tnvalue.in','8fc4e5a5a7f1d571adfc7c02537d7c1e73da1a15','-1001942664190'],
-        'Paaru_':['https://graph.org/file/f4eccb711889b4e33952a.jpg','gyanilinks.com','48dcae9aa066bd2577204960ddefcadf00e02a77','-1001942664190'],
+        'Shravani_Subramanya_':['https://graph.org/file/85727561500662aaa42dd.jpg','gyanilinks.com','48dcae9aa066bd2577204960ddefcadf00e02a77','-1001942664190'],
          ######### TNSHORT ##########
         'Annapoorna_':['https://graph.org/file/baff21a920cc09f0ba89a.jpg','gyanilinks.com','a22f51811990f630f92999a71dd9ae8f8505f0fd','-1001942664190'],
         'Bhoomige_Bandha_Bhagavantha_':['https://graph.org/file/dc3b179fceb487e4847c4.jpg','tnshort.net','1183b34c88b1fd4e898d7d9dc7b6fc6a2bea9dd9','-1001942664190'],
@@ -67,6 +67,7 @@ DATAODD = {
         'Drama_Juniors_Season_5_':['https://graph.org/file/d8b1e16b46a0c6a4850fe.jpg','tnvalue.in','ff426552eda72230153ea3450a0bce0557183ccb','-1001942664190'],
         # OLD SHOES WASTE
         'Gattimela_':['https://graph.org/file/d3eda0e1961ee06e5cba7.jpg','linkshortify.com','9e82f5e0d917c633234194f39c2985752efd67e0','-1001942664190'],
+        'Paaru_':['https://graph.org/file/f4eccb711889b4e33952a.jpg','gyanilinks.com','48dcae9aa066bd2577204960ddefcadf00e02a77','-1001942664190'],
 
   
         ######### PUBLICEARN ##########
@@ -149,7 +150,7 @@ DATAEVEN = {
         ######### TNSHORT ##########
         'Trinayani_':['https://graph.org/file/1f2827a0980cc418ee6e1.jpg','gyanilinks.com','a22f51811990f630f92999a71dd9ae8f8505f0fd','-1001942664190'],
         'Soubhagyavati_Bhava_':['https://graph.org/file/2d34fb7705e6ecb7c5937.jpg','tnshort.net','1183b34c88b1fd4e898d7d9dc7b6fc6a2bea9dd9','-1001942664190'],
-        'Paaru_':['https://graph.org/file/f4eccb711889b4e33952a.jpg','kingurl.in','bacc7afdaa035d3cbe2d2c89bec4304b69a25145','-1001942664190'],
+        'Shravani_Subramanya_':['https://graph.org/file/85727561500662aaa42dd.jpg','kingurl.in','bacc7afdaa035d3cbe2d2c89bec4304b69a25145','-1001942664190'],
         ######### UPSHRINK ########## 
         'Kalyanamasthu_':['https://graph.org/file/db7a3d7d1a2654540cf99.jpg','upshrink.com','db8e518b1e15d2184e0dfe7467a6e6e92f4ccbf4','-1001942664190'],
         'Vaidehi_Parinaya_':['https://graph.org/file/8c7eda434e1f0baae0b81.jpg','upshrink.com','db8e518b1e15d2184e0dfe7467a6e6e92f4ccbf4','-1001942664190'],
@@ -163,6 +164,7 @@ DATAEVEN = {
         'Drama_Juniors_Season_5_':['https://graph.org/file/d8b1e16b46a0c6a4850fe.jpg','tnshort.net','1183b34c88b1fd4e898d7d9dc7b6fc6a2bea9dd9','-1001942664190'],
         # OLD SHOES WASTE
         'Gattimela_':['https://graph.org/file/d3eda0e1961ee06e5cba7.jpg','publicearn.com','464106b92f625bb080da1a9170abcc819e346820','-1001942664190'],
+        'Paaru_':['https://graph.org/file/f4eccb711889b4e33952a.jpg','kingurl.in','bacc7afdaa035d3cbe2d2c89bec4304b69a25145','-1001942664190'],
 
   
         ######### PUBLICEARN ##########
