@@ -53,7 +53,7 @@ DATAODD = {
          ######### TNSHORT ##########
         'Annapoorna_':['https://graph.org/file/baff21a920cc09f0ba89a.jpg','gyanilinks.com','a22f51811990f630f92999a71dd9ae8f8505f0fd','-1001942664190'],
         'Bhoomige_Bandha_Bhagavantha_':['https://graph.org/file/dc3b179fceb487e4847c4.jpg','tnshort.net','1183b34c88b1fd4e898d7d9dc7b6fc6a2bea9dd9','-1001942664190'],
-        'Shrirasthu_Shubhamasthu_':['https://graph.org/file/b6d93c7cc15166fbf7e35.jpg','tnshort.net','cfafc72b0df2558f0f5ad4e1c906ce9f783281e3','-1001942664190'],
+        'Shrirasthu_Shubhamasthu_':['https://graph.org/file/b6d93c7cc15166fbf7e35.jpg','kingurl.in','bacc7afdaa035d3cbe2d2c89bec4304b69a25145','-1001942664190'],
         ######### UPSHRINK ########## 
         'Kalyanamasthu_':['https://graph.org/file/db7a3d7d1a2654540cf99.jpg','upshrink.com','7864f20bc9c1eb4c29769f820c1069ddd21dfe94','-1001942664190'],
         'Vaidehi_Parinaya_':['https://graph.org/file/8c7eda434e1f0baae0b81.jpg','upshrink.com','7864f20bc9c1eb4c29769f820c1069ddd21dfe94','-1001942664190'],
@@ -99,7 +99,7 @@ DATAODD = {
         'Punyavathi_':['https://graph.org/file/c15998a362846c9eb09f0.jpg','moneycase.link','bdc62bf7dd54515abf15371b58feb6a1ff2b434a','-1001965277713'],
         'Tripura_Sundari_':['https://graph.org/file/4a59fd893093b82e9c234.jpg','tnvalue.in','8fc4e5a5a7f1d571adfc7c02537d7c1e73da1a15','-1001965277713'],
         'Gruhapravesha_':['https://graph.org/file/16220456e337fa35b18b7.jpg','gyanilinks.com','48dcae9aa066bd2577204960ddefcadf00e02a77','-1001965277713'],
-        'Ganda_Hendthi_':['https://graph.org/file/e7437d0a9eac55fdb2623.jpg','tnshort.net','cfafc72b0df2558f0f5ad4e1c906ce9f783281e3','-1001965277713'],
+        'Ganda_Hendthi_':['https://graph.org/file/e7437d0a9eac55fdb2623.jpg','kingurl.in','bacc7afdaa035d3cbe2d2c89bec4304b69a25145','-1001965277713'],
         
 
         ######### PUBLICEARN ##########
@@ -117,7 +117,7 @@ DATAODD = {
         ######### TNSHORT ##########
         'Gowri_Shankara_':['https://graph.org/file/074cc5c27be51345717eb.jpg','gyanilinks.com','a22f51811990f630f92999a71dd9ae8f8505f0fd','-1001901182731'],
         'Anupama_Sarvagunaa_Sampanne_':['https://graph.org/file/0e86ebb3ab5cf24eac6c9.jpg','tnshort.net','1183b34c88b1fd4e898d7d9dc7b6fc6a2bea9dd9','-1001901182731'],
-        'Avanu_Matthe_Shravani_':['https://graph.org/file/c0403382ffa200212ae4f.jpg','tnshort.net','cfafc72b0df2558f0f5ad4e1c906ce9f783281e3','-1001901182731'],
+        'Avanu_Matthe_Shravani_':['https://graph.org/file/c0403382ffa200212ae4f.jpg','kingurl.in','bacc7afdaa035d3cbe2d2c89bec4304b69a25145','-1001901182731'],
         ######### UPSHRINK ##########
         'Udho_Udho_Shri_Renuka_Yellamma_':['https://graph.org/file/f5749c1343173f855b0e7.jpg','upshrink.com','7864f20bc9c1eb4c29769f820c1069ddd21dfe94','-1001901182731'],
         'Bombat_Bhojana_':['https://graph.org/file/d2871411e7358e4c76b52.jpg','upshrink.com','db8e518b1e15d2184e0dfe7467a6e6e92f4ccbf4','-1001901182731'],
@@ -149,7 +149,7 @@ DATAEVEN = {
         ######### TNSHORT ##########
         'Trinayani_':['https://graph.org/file/1f2827a0980cc418ee6e1.jpg','gyanilinks.com','a22f51811990f630f92999a71dd9ae8f8505f0fd','-1001942664190'],
         'Soubhagyavati_Bhava_':['https://graph.org/file/2d34fb7705e6ecb7c5937.jpg','tnshort.net','1183b34c88b1fd4e898d7d9dc7b6fc6a2bea9dd9','-1001942664190'],
-        'Paaru_':['https://graph.org/file/f4eccb711889b4e33952a.jpg','tnshort.net','cfafc72b0df2558f0f5ad4e1c906ce9f783281e3','-1001942664190'],
+        'Paaru_':['https://graph.org/file/f4eccb711889b4e33952a.jpg','kingurl.in','bacc7afdaa035d3cbe2d2c89bec4304b69a25145','-1001942664190'],
         ######### UPSHRINK ########## 
         'Kalyanamasthu_':['https://graph.org/file/db7a3d7d1a2654540cf99.jpg','upshrink.com','db8e518b1e15d2184e0dfe7467a6e6e92f4ccbf4','-1001942664190'],
         'Vaidehi_Parinaya_':['https://graph.org/file/8c7eda434e1f0baae0b81.jpg','upshrink.com','db8e518b1e15d2184e0dfe7467a6e6e92f4ccbf4','-1001942664190'],
@@ -178,7 +178,7 @@ DATAEVEN = {
         'Kendasampige_':['https://graph.org/file/62c90177d09f7cf416e6c.jpg','gyanilinks.com','48dcae9aa066bd2577204960ddefcadf00e02a77','-1001965277713'],
         ######### TNSHORT ##########
         'Pavada_Purasha_':['https://graph.org/file/f65651907ba441187f7b1.jpg','gyanilinks.com','a22f51811990f630f92999a71dd9ae8f8505f0fd','-1001965277713'],
-        'Shiva_Shakthi_':['https://te.legra.ph/file/cd50cd7409c99d938aace.jpg','tnshort.net','cfafc72b0df2558f0f5ad4e1c906ce9f783281e3','-1001965277713'],
+        'Shiva_Shakthi_':['https://te.legra.ph/file/cd50cd7409c99d938aace.jpg','kingurl.in','bacc7afdaa035d3cbe2d2c89bec4304b69a25145','-1001965277713'],
         'Geetha_':['https://graph.org/file/e95baeeafbf180bd184e1.jpg','tnshort.net','1183b34c88b1fd4e898d7d9dc7b6fc6a2bea9dd9','-1001965277713'],
         ######### UPSHRINK ########## 
         'Shantham_Papam_':['https://graph.org/file/fa897d25d4d944e8487d5.jpg','upshrink.com','7864f20bc9c1eb4c29769f820c1069ddd21dfe94','-1001965277713'],
@@ -194,7 +194,7 @@ DATAEVEN = {
         'Lakshana_':['https://graph.org/file/995a7a33f5d543f4f4dbf.jpg','publicearn.com','473c08dc24bf90aa3694e0365978e93b900a8b5e','-1001965277713'],
         'Punyavathi_':['https://graph.org/file/c15998a362846c9eb09f0.jpg','tnvalue.in','8fc4e5a5a7f1d571adfc7c02537d7c1e73da1a15','-1001965277713'],
         'Tripura_Sundari_':['https://graph.org/file/4a59fd893093b82e9c234.jpg','tnshort.net','1183b34c88b1fd4e898d7d9dc7b6fc6a2bea9dd9','-1001965277713'],
-        'Gruhapravesha_':['https://graph.org/file/16220456e337fa35b18b7.jpg','tnshort.net','cfafc72b0df2558f0f5ad4e1c906ce9f783281e3','-1001965277713'],
+        'Gruhapravesha_':['https://graph.org/file/16220456e337fa35b18b7.jpg','kingurl.in','bacc7afdaa035d3cbe2d2c89bec4304b69a25145','-1001965277713'],
         'Ganda_Hendthi_':['https://graph.org/file/e7437d0a9eac55fdb2623.jpg','gyanilinks.com','48dcae9aa066bd2577204960ddefcadf00e02a77','-1001965277713'],
         
 
@@ -213,7 +213,7 @@ DATAEVEN = {
         ######### TNSHORT ##########
         'Malikappuram_':['https://graph.org/file/4a543fd0881fb752d2c36.jpg','gyanilinks.com','a22f51811990f630f92999a71dd9ae8f8505f0fd','-1001901182731'],
         'Nagapanchami_':['https://graph.org/file/dd2a58d339ca517010edc.jpg','tnshort.net','1183b34c88b1fd4e898d7d9dc7b6fc6a2bea9dd9','-1001901182731'],
-        'Aragini_2_':['https://graph.org/file/6ddd25521aa2c813306aa.jpg','tnshort.net','cfafc72b0df2558f0f5ad4e1c906ce9f783281e3','-1001901182731'],
+        'Aragini_2_':['https://graph.org/file/6ddd25521aa2c813306aa.jpg','kingurl.in','bacc7afdaa035d3cbe2d2c89bec4304b69a25145','-1001901182731'],
         ######### UPSHRINK ########## 
         'Udho_Udho_Shri_Renuka_Yellamma_':['https://graph.org/file/f5749c1343173f855b0e7.jpg','upshrink.com','db8e518b1e15d2184e0dfe7467a6e6e92f4ccbf4','-1001901182731'],
         'Bombat_Bhojana_':['https://graph.org/file/d2871411e7358e4c76b52.jpg','upshrink.com','4a6aae0ff4e202d6c04695352f6409511f2a0642','-1001901182731'],
