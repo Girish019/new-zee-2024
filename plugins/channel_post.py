@@ -129,7 +129,13 @@ async def get_size(size):
         i += 1
         size /= 1024.0
     return "%.1f %s" % (size, units[i])
-  
+
+# @Client.on_message(filters.private & filters.user(ADMINS) & ~filters.text)
+# async def channel_post(client: Client, message: Message):
+#     Tlink = await conv_link(client , message)
+#     bot_msg = await message.reply_text(Tlink, quote = True)
+
+
 @Bot.on_message(filters.channel & filters.incoming & filters.chat(CHANNEL_ID))
 async def new_post(client: Client, message: Message):
 
