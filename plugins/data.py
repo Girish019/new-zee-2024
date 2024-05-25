@@ -63,7 +63,7 @@ DATAODD = {
         'Naagamandala_':['https://graph.org/file/ba8ff993b1c246334692c.jpg','upshrink.com','db8e518b1e15d2184e0dfe7467a6e6e92f4ccbf4','-1001942664190'],
         'Mahanayaka_Dr_B_R_Ambedkar_':['https://graph.org/file/6faf520d534a49f6742bb.jpg','upshrink.com','db8e518b1e15d2184e0dfe7467a6e6e92f4ccbf4','-1001942664190'],
         ########## WEEKEND SHOES ############
-        'Comedy_Khiladigalu_Premier_League_':['https://graph.org/file/4e4548e4fac698ce3ebef.jpg','','','-1001942664190']
+        'Comedy_Khiladigalu_Premier_League_':['https://graph.org/file/4e4548e4fac698ce3ebef.jpg','','','-1001942664190'],
         'Sa_Re_Ga_Ma_Pa_Season_20_':['https://graph.org/file/7ef74d66ba659081feab3.jpg','kingurl.in','326415c4840f105856526ab758ddbd76f3be37bc','-1001942664190'],
         'Drama_Juniors_Season_5_':['https://graph.org/file/d8b1e16b46a0c6a4850fe.jpg','tnvalue.in','8fc4e5a5a7f1d571adfc7c02537d7c1e73da1a15','-1001942664190'],
         'Mahanati_':['https://graph.org/file/b896bab4705bdf8b42a94.jpg','tnvalue.in','ff426552eda72230153ea3450a0bce0557183ccb','-1001942664190'],
