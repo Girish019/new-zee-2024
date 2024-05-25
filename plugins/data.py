@@ -87,7 +87,7 @@ DATAODD = {
        ######### SETURL ########## OLD-->(TNSHORT)
         'Antarapata_':['https://graph.org/file/ea08c222d4848f1661e3c.jpg','seturl.in','75a477d1a664d25aca968ce51741088bdd19f1d0','-1001965277713'],
         'Kendasampige_':['https://graph.org/file/62c90177d09f7cf416e6c.jpg','seturl.in','d299cd87a64a7955b9384d52998ad2d03414d16e','-1001965277713'],
-        'Saviruchi_':['https://graph.org/file/8a5daf97be69efc0cfc6d.jpg','seturl.in','9bc86ebb0f21c98a025f475697718918ceb496b6','-1001965277713']
+        'Saviruchi_':['https://graph.org/file/8a5daf97be69efc0cfc6d.jpg','seturl.in','9bc86ebb0f21c98a025f475697718918ceb496b6','-1001965277713'],
         ######### UPSHRINK ##########
         'Shantham_Papam_':['https://graph.org/file/60605e71f6621d0d5d344.jpg','upshrink.com','4a6aae0ff4e202d6c04695352f6409511f2a0642','-1001965277713'],
         'Muddu_Bangara_':['https://graph.org/file/49001901d7ccbf8698935.jpg','upshrink.com','7864f20bc9c1eb4c29769f820c1069ddd21dfe94','-1001965277713'],
@@ -116,7 +116,7 @@ DATAODD = {
         'Kasthuri_':['https://graph.org/file/fa78cde52d839a6813b9b.jpg','kingurl.in','bacc7afdaa035d3cbe2d2c89bec4304b69a25145','-1001901182731'],
         'Aase_':['https://te.legra.ph/file/2e41e0ab4cf35e473de3c.jpg','kingurl.in','1012552615a385422f1e5aae88e859b0e0b12b84','-1001901182731'],
         ######### PUBLICEARN ##########
-        'Suvarna-Gruhamantri':['https://graph.org/file/c03455c38d350d6c8f2eb.jpg','publicearn.com','464106b92f625bb080da1a9170abcc819e346820','-1001901182731']
+        'Suvarna-Gruhamantri':['https://graph.org/file/c03455c38d350d6c8f2eb.jpg','publicearn.com','464106b92f625bb080da1a9170abcc819e346820','-1001901182731'],
         'Honganasu_':['https://graph.org/file/ca9bcfcfb5560459c3bcf.jpg','publicearn.com','473c08dc24bf90aa3694e0365978e93b900a8b5e','-1001901182731'],
         'Aragini_2_':['https://graph.org/file/6ddd25521aa2c813306aa.jpg','publicearn.com','7a31310702b8f319804ab699cfde6303ee7d35fa','-1001901182731'],
        ######### SETURL ########## OLD-->(TNSHORT)
