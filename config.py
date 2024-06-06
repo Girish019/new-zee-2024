@@ -73,6 +73,12 @@ LOG_TEXT_P =  """#𝐍𝐞𝐰𝐔𝐬𝐞𝐫
 <b>᚛› 𝐅𝐫𝐨𝐦 -   <a href="https://t.me/Ultra_Reserve_bot">Ultra Stow 🤪</a></b>
 """
 
+RESTART_TXT = """
+<b>Bᴏᴛ Rᴇsᴛᴀʀᴛᴇᴅ ! <a href="https://t.me/Ultra_Reserve_bot">Ultra Stow 🤪</a>
+📅 Dᴀᴛᴇ : <code>{}</code>
+⏰ Tɪᴍᴇ : <code>{}</code>
+🌐 Tɪᴍᴇᴢᴏɴᴇ : <code>Asia/Kolkata</code></b>"""
+
 logging.basicConfig(
     level=logging.INFO,
     format="[%(asctime)s - %(levelname)s] - %(name)s - %(message)s",
