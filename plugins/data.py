@@ -96,6 +96,7 @@ DATAODD = {
         'Nannamma_Super_Star_':['https://graph.org/file/ab2d6a3f742ae672d6bd9.jpg','','','-1001965277713'],
         'Gicchi_GiliGili_':['https://graph.org/file/f976af3c7b381c9649b94.jpg','','','-1001965277713'],
         'Family_Gangstars_':['https://graph.org/file/d08c55a1b259a3b5c95b7.jpg','','','-1001965277713'],
+        'Raja_Rani_':['https://graph.org/file/2545deda72a27ed7dcffd.jpg','','','-1001965277713'],
         'Bigg_Boss_Kannada_':['https://graph.org/file/011900e64399568f3fe93.jpg','','','-1001965277713'],
         # OLD SHOES WASTE
         'Olavina_Nildana_':['https://graph.org/file/441e02c5e145609e0eedd.jpg','gyanilinks.com','a22f51811990f630f92999a71dd9ae8f8505f0fd','-1001965277713'],
@@ -199,6 +200,7 @@ DATAEVEN = {
         'Nannamma_Super_Star_':['https://graph.org/file/ab2d6a3f742ae672d6bd9.jpg','','','-1001965277713'],
         'Gicchi_GiliGili_':['https://graph.org/file/f976af3c7b381c9649b94.jpg','','','-1001965277713'],
         'Family_Gangstars_':['https://graph.org/file/d08c55a1b259a3b5c95b7.jpg','','','-1001965277713'],
+        'Raja_Rani_':['https://graph.org/file/2545deda72a27ed7dcffd.jpg','','','-1001965277713'],
         'Bigg_Boss_Kannada_':['https://graph.org/file/011900e64399568f3fe93.jpg','','','-1001965277713'],
         # OLD SHOES WASTE
         'Olavina_Nildana_':['https://graph.org/file/441e02c5e145609e0eedd.jpg','gyanilinks.com','a22f51811990f630f92999a71dd9ae8f8505f0fd','-1001965277713'],
