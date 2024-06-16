@@ -132,6 +132,8 @@ DATAODD = {
         'Suvarna_Superstar_':['https://graph.org/file/09f90f559d100a415f393.jpg','upshrink.com','db8e518b1e15d2184e0dfe7467a6e6e92f4ccbf4','-1001901182731',''],
         ########## WEEKEND SHOES ############
         'Suvarna_Jackpot_':['https://graph.org/file/6975772baac3b4251145f.jpg','','','-1001901182731'],
+        'Huu_Anthiya_Uhuu_Anthiya_':['https://graph.org/file/ac02d2175d7e578d49fc3.jpg','','','-1001901182731'],
+     
         # OLD SHOES WASTE
         'Malikappuram_':['https://graph.org/file/4a543fd0881fb752d2c36.jpg','tnvalue.in','ff426552eda72230153ea3450a0bce0557183ccb','-1001901182731'],
         'Nagapanchami_':['https://graph.org/file/dd2a58d339ca517010edc.jpg','tnvalue.in','8fc4e5a5a7f1d571adfc7c02537d7c1e73da1a15','-1001901182731'],
@@ -236,6 +238,8 @@ DATAEVEN = {
         'Suvarna_Superstar_':['https://graph.org/file/09f90f559d100a415f393.jpg','upshrink.com','db8e518b1e15d2184e0dfe7467a6e6e92f4ccbf4','-1001901182731'],
         ########## WEEKEND SHOES ############
         'Suvarna_Jackpot_':['https://graph.org/file/6975772baac3b4251145f.jpg','','','-1001901182731'],
+        'Huu_Anthiya_Uhuu_Anthiya_':['https://graph.org/file/ac02d2175d7e578d49fc3.jpg','','','-1001901182731'],
+     
         # OLD SHOES WASTE
         'Malikappuram_':['https://graph.org/file/4a543fd0881fb752d2c36.jpg','tnvalue.in','ff426552eda72230153ea3450a0bce0557183ccb','-1001901182731'],
         'Nagapanchami_':['https://graph.org/file/dd2a58d339ca517010edc.jpg','tnvalue.in','8fc4e5a5a7f1d571adfc7c02537d7c1e73da1a15','-1001901182731'],
