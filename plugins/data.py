@@ -45,7 +45,7 @@ DATAODD = {
         ######### KINGURL ########## OLD-->(LINKSHORTIFY)SETURRL
         'Amruthadhaare_':['https://graph.org/file/2ebe4f1d999849a1ca574.jpg','kingurl.in','326415c4840f105856526ab758ddbd76f3be37bc','-1001942664190','ಅಮೃತಧಾರೆ'],
         'Lakshmi_Nivasa_':['https://graph.org/file/6306489e3155e6780acc8.jpg','kingurl.in','bacc7afdaa035d3cbe2d2c89bec4304b69a25145','-1001942664190','ಲಕ್ಷ್ಮೀ ನಿವಾಸ'],
-        'Hitler_Kalyana_':['https://graph.org/file/4bccb3c8fd1fe4c5d92e7.jpg','kingurl.in','1012552615a385422f1e5aae88e859b0e0b12b84','-1001942664190','ಹಿಟ್ಲರ್ ಕಲ್ಯಾಣ'],
+        'Brahmagantu_':['https://graph.org/file/f58381578cb4b4dfad5ef.jpg','kingurl.in','1012552615a385422f1e5aae88e859b0e0b12b84','-1001942664190','ಹಿಟ್ಲರ್ ಕಲ್ಯಾಣ'],
         ######### PUBLICEARN ##########
         'Trinayani_':['https://graph.org/file/1f2827a0980cc418ee6e1.jpg','publicearn.com','473c08dc24bf90aa3694e0365978e93b900a8b5e','-1001942664190','ತ್ರಿನಯನಿ'],
         'Soubhagyavati_Bhava_':['https://graph.org/file/2d34fb7705e6ecb7c5937.jpg','publicearn.com','464106b92f625bb080da1a9170abcc819e346820','-1001942664190','ಸೌಭಾಗ್ಯವತಿ ಭವ'],
@@ -148,7 +148,7 @@ DATAEVEN = {
         ######### RUNURL ##########
         'Amruthadhaare_':['https://graph.org/file/2ebe4f1d999849a1ca574.jpg','runurl.in','f9518cedb9abdab8fdc1f13b44c77d431c794092','-1001942664190'],
         'Lakshmi_Nivasa_':['https://graph.org/file/6306489e3155e6780acc8.jpg','runurl.in','fcf56bddf9c2a2ccf09ea87c502a2c606850da6c','-1001942664190'],
-        'Hitler_Kalyana_':['https://graph.org/file/4bccb3c8fd1fe4c5d92e7.jpg','runurl.in','250ce2fa3975ccb8cfb8b8d964230624bb770a30','-1001942664190'],
+        'Brahmagantu_':['https://graph.org/file/f58381578cb4b4dfad5ef.jpg','runurl.in','250ce2fa3975ccb8cfb8b8d964230624bb770a30','-1001942664190'],
         ######### KINGURL ########## OLD-->(LINKSHORTIFY)
         'Sathya_':['https://graph.org/file/7f30ff54ecf9b380e4634.jpg','kingurl.in','326415c4840f105856526ab758ddbd76f3be37bc','-1001942664190'],
         'Puttakkana_Makkalu_':['https://graph.org/file/085afbc67400a2066fefd.jpg','kingurl.in','bacc7afdaa035d3cbe2d2c89bec4304b69a25145','-1001942664190'],
