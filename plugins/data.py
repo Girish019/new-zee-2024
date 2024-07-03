@@ -143,6 +143,20 @@ DATAODD = {
         'O_MuddhuManase_':['https://graph.org/file/cd2664a143bec7e2d5f14.jpg','publicearn.com','','-1001901182731'],
         'Jenugudu_':['https://graph.org/file/48a8df66387287f6e2440.jpg','seturl.in','','-1001901182731'],
         'Anuraga_Aralitu_':['https://graph.org/file/0b15dd8c7f1d0118af62e.jpg','tnvalue.in','','-1001901182731'],
+
+        ######### RUNURL ##########
+        'Myna_':['https://graph.org/file/4cfa16a5565e106c11523.jpg','linkshortify.com','8a9a3df5db074b2b1ad10efcd383e5243118447b','-1001942664190','ಸತ್ಯ'],
+        'Suryavamsha_':['https://graph.org/file/af511c303441fd224fecd.jpg','runurl.in','fcf56bddf9c2a2ccf09ea87c502a2c606850da6c','-1001942664190',' ಪುಟ್ಟಕ್ಕನ ಮಕ್ಕಳು'],
+        'Shambhavi_':['https://graph.org/file/9efc7a7b57416d67865a6.jpg','runurl.in','250ce2fa3975ccb8cfb8b8d964230624bb770a30','-1001942664190','ಸೀತಾ ರಾಮ'],
+        ######### KINGURL ########## OLD-->(LINKSHORTIFY)SETURRL
+        'Radhika_':['https://graph.org/file/54b5e2f6ca7c813736fd6.jpg','kingurl.in','326415c4840f105856526ab758ddbd76f3be37bc','-1001942664190','ಅಮೃತಧಾರೆ'],
+        'Sevanthi_':['https://graph.org/file/614979f04408e379c713f.jpg','kingurl.in','bacc7afdaa035d3cbe2d2c89bec4304b69a25145','-1001942664190','ಲಕ್ಷ್ಮೀ ನಿವಾಸ'],
+        'Gange_Gowri_':['https://graph.org/file/e2691e1b1d11b0a8b4e8e.jpg','kingurl.in','1012552615a385422f1e5aae88e859b0e0b12b84','-1001942664190','ಹಿಟ್ಲರ್ ಕಲ್ಯಾಣ'],
+        ######### PUBLICEARN ##########
+        'Janani_':['https://graph.org/file/b6ac590f85d19774aa216.jpg','publicearn.com','473c08dc24bf90aa3694e0365978e93b900a8b5e','-1001942664190','ತ್ರಿನಯನಿ'],
+        'Anna_Thangi_':['https://graph.org/file/53d06591e6d274f7c5967.jpg','publicearn.com','464106b92f625bb080da1a9170abcc819e346820','-1001942664190','ಸೌಭಾಗ್ಯವತಿ ಭವ'],
+        'Gowripurada_Gayaligalu_':['https://graph.org/file/c28a5682caa1d2b2fd091.jpg','publicearn.com','7a31310702b8f319804ab699cfde6303ee7d35fa','-1001942664190','ಶ್ರಾವಣಿ ಸುಬ್ರಮಣ್ಯ'],
+        ######### SETURL ########## OLD-->(TNSHORT)
 }
 DATAEVEN = {
         ######### RUNURL ##########
@@ -249,4 +263,18 @@ DATAEVEN = {
         'O_MuddhuManase_':['https://graph.org/file/cd2664a143bec7e2d5f14.jpg','publicearn.com','','-1001901182731'],
         'Jenugudu_':['https://graph.org/file/48a8df66387287f6e2440.jpg','seturl.in','','-1001901182731'],
         'Anuraga_Aralitu_':['https://graph.org/file/0b15dd8c7f1d0118af62e.jpg','tnvalue.in','','-1001901182731'], 
+
+        ######### RUNURL ##########
+        'Radhika_':['https://graph.org/file/54b5e2f6ca7c813736fd6.jpg','linkshortify.com','8a9a3df5db074b2b1ad10efcd383e5243118447b','-1001942664190'],
+        'Lakshmi_Nivasa_':['https://graph.org/file/6306489e3155e6780acc8.jpg','runurl.in','fcf56bddf9c2a2ccf09ea87c502a2c606850da6c','-1001942664190'],
+        'Gange_Gowri_':['https://graph.org/file/e2691e1b1d11b0a8b4e8e.jpg','runurl.in','250ce2fa3975ccb8cfb8b8d964230624bb770a30','-1001942664190'],
+        ######### KINGURL ########## OLD-->(LINKSHORTIFY)
+        'Myna_':['https://graph.org/file/4cfa16a5565e106c11523.jpg','kingurl.in','326415c4840f105856526ab758ddbd76f3be37bc','-1001942664190'],
+        'Suryavamsha_':['https://graph.org/file/af511c303441fd224fecd.jpg','kingurl.in','bacc7afdaa035d3cbe2d2c89bec4304b69a25145','-1001942664190'],
+        'Shambhavi_':['https://graph.org/file/9efc7a7b57416d67865a6.jpg','kingurl.in','1012552615a385422f1e5aae88e859b0e0b12b84','-1001942664190'],
+        ######### PUBLICEARN ##########
+        'Janani_':['https://graph.org/file/b6ac590f85d19774aa216.jpg','publicearn.com','473c08dc24bf90aa3694e0365978e93b900a8b5e','-1001942664190'],
+        'Anna_Thangi_':['https://graph.org/file/53d06591e6d274f7c5967.jpg','publicearn.com','464106b92f625bb080da1a9170abcc819e346820','-1001942664190'],
+        'Gowripurada_Gayaligalu_':['https://graph.org/file/c28a5682caa1d2b2fd091.jpg','publicearn.com','7a31310702b8f319804ab699cfde6303ee7d35fa','-1001942664190'],
+       ######### SETURL ########## OLD-->(TNSHORT)
   }
