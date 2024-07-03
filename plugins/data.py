@@ -39,7 +39,7 @@ Elements in <b>"{}"</b>
         # OLD SHOES WASTE
 DATAODD = {
         ######### RUNURL ##########
-        'Sathya_':['https://graph.org/file/7f30ff54ecf9b380e4634.jpg','runurl.in','f9518cedb9abdab8fdc1f13b44c77d431c794092','-1001942664190','ಸತ್ಯ'],
+        'Sathya_':['https://graph.org/file/7f30ff54ecf9b380e4634.jpg','linkshortify.com','8a9a3df5db074b2b1ad10efcd383e5243118447b','-1001942664190','ಸತ್ಯ'],
         'Puttakkana_Makkalu_':['https://graph.org/file/085afbc67400a2066fefd.jpg','runurl.in','fcf56bddf9c2a2ccf09ea87c502a2c606850da6c','-1001942664190',' ಪುಟ್ಟಕ್ಕನ ಮಕ್ಕಳು'],
         'SeethaRaama_':['https://graph.org/file/d7b3c98a89d0d061f064f.jpg','runurl.in','250ce2fa3975ccb8cfb8b8d964230624bb770a30','-1001942664190','ಸೀತಾ ರಾಮ'],
         ######### KINGURL ########## OLD-->(LINKSHORTIFY)SETURRL
@@ -73,7 +73,7 @@ DATAODD = {
 
   
         ######### RUNURL ##########
-        'Shreegowri_':['https://graph.org/file/b12919aaec86f1c32a2e7.jpg','runurl.in','f9518cedb9abdab8fdc1f13b44c77d431c794092','-1001965277713',''],
+        'Shreegowri_':['https://graph.org/file/b12919aaec86f1c32a2e7.jpg','linkshortify.com','8a9a3df5db074b2b1ad10efcd383e5243118447b','-1001965277713',''],
         'Karimani_':['https://graph.org/file/309839d1a79ec3835a776.jpg','runurl.in','fcf56bddf9c2a2ccf09ea87c502a2c606850da6c','-1001965277713',''],
         'Ramachari_':['https://graph.org/file/f590c3585b4c0068df630.jpg','runurl.in','250ce2fa3975ccb8cfb8b8d964230624bb770a30','-1001965277713',''],
         ######### KINGURL ########## OLD-->(LINKSHORTIFY)
@@ -110,7 +110,7 @@ DATAODD = {
         
 
         ######### RUNURL ##########
-        'Janaki_Samsara_':['https://graph.org/file/f54733e4623e57eb5f71b.jpg','runurl.in','f9518cedb9abdab8fdc1f13b44c77d431c794092','-1001901182731',''],
+        'Janaki_Samsara_':['https://graph.org/file/f54733e4623e57eb5f71b.jpg','linkshortify.com','8a9a3df5db074b2b1ad10efcd383e5243118447b','-1001901182731',''],
         'Kaveri_Kannada_Medium_':['https://graph.org/file/b53472a77d733b99b2f05.jpg','runurl.in','fcf56bddf9c2a2ccf09ea87c502a2c606850da6c','-1001901182731',''],
         'Neenadhe_Naa_':['https://graph.org/file/fcbbf0a8c0413d4a59ad9.jpg','runurl.in','250ce2fa3975ccb8cfb8b8d964230624bb770a30','-1001901182731',''],
         ######### KINGURL ########## OLD-->(LINKSHORTIFY)
@@ -146,7 +146,7 @@ DATAODD = {
 }
 DATAEVEN = {
         ######### RUNURL ##########
-        'Amruthadhaare_':['https://graph.org/file/2ebe4f1d999849a1ca574.jpg','runurl.in','f9518cedb9abdab8fdc1f13b44c77d431c794092','-1001942664190'],
+        'Amruthadhaare_':['https://graph.org/file/2ebe4f1d999849a1ca574.jpg','linkshortify.com','8a9a3df5db074b2b1ad10efcd383e5243118447b','-1001942664190'],
         'Lakshmi_Nivasa_':['https://graph.org/file/6306489e3155e6780acc8.jpg','runurl.in','fcf56bddf9c2a2ccf09ea87c502a2c606850da6c','-1001942664190'],
         'Brahmagantu_':['https://graph.org/file/f58381578cb4b4dfad5ef.jpg','runurl.in','250ce2fa3975ccb8cfb8b8d964230624bb770a30','-1001942664190'],
         ######### KINGURL ########## OLD-->(LINKSHORTIFY)
@@ -179,7 +179,7 @@ DATAEVEN = {
         'Paaru_':['https://graph.org/file/f4eccb711889b4e33952a.jpg','gyanilinks.com','48dcae9aa066bd2577204960ddefcadf00e02a77','-1001942664190'],
   
         ######### RUNURL ##########
-        'Brundavana_':['https://te.legra.ph/file/400cc7b9a9dcc1c1d230e.jpg','runurl.in','f9518cedb9abdab8fdc1f13b44c77d431c794092','-1001965277713'],
+        'Brundavana_':['https://te.legra.ph/file/400cc7b9a9dcc1c1d230e.jpg','linkshortify.com','8a9a3df5db074b2b1ad10efcd383e5243118447b','-1001965277713'],
         'Lakshmi_Baramma_':['https://graph.org/file/be3588e70978523792514.jpg','runurl.in','fcf56bddf9c2a2ccf09ea87c502a2c606850da6c','-1001965277713'],
         'Bhagyalakshmi_':['https://graph.org/file/261d0c995b5e2a434093b.jpg','runurl.in','250ce2fa3975ccb8cfb8b8d964230624bb770a30','-1001965277713'],
         ######### KINGUEL ########## OLD-->(LINKSHORTIFY)
@@ -216,7 +216,7 @@ DATAEVEN = {
         
 
         ######### RUNURL ##########
-        'Lakshmi_Tiffin_Room_':['https://graph.org/file/742d19376994a75a4d6ac.jpg','runurl.in','f9518cedb9abdab8fdc1f13b44c77d431c794092','-1001901182731'],
+        'Lakshmi_Tiffin_Room_':['https://graph.org/file/742d19376994a75a4d6ac.jpg','linkshortify.com','8a9a3df5db074b2b1ad10efcd383e5243118447b','-1001901182731'],
         'Kasthuri_':['https://graph.org/file/fa78cde52d839a6813b9b.jpg','runurl.in','fcf56bddf9c2a2ccf09ea87c502a2c606850da6c','-1001901182731'],
         'Aase_':['https://te.legra.ph/file/2e41e0ab4cf35e473de3c.jpg','runurl.in','250ce2fa3975ccb8cfb8b8d964230624bb770a30','-1001901182731'],
         ######### KINGURL ########## OLD-->(LINKSHORTIFY)
