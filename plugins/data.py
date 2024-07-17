@@ -57,7 +57,7 @@ DATAODD = {
         ######### UPSHRINK ########## 
         'Kalyanamasthu_':['https://graph.org/file/db7a3d7d1a2654540cf99.jpg','upshrink.com','7864f20bc9c1eb4c29769f820c1069ddd21dfe94','-1001942664190','ಕಲ್ಯಾಣಮಸ್ತು'],
         'Vaidehi_Parinaya_':['https://graph.org/file/8c7eda434e1f0baae0b81.jpg','upshrink.com','7864f20bc9c1eb4c29769f820c1069ddd21dfe94','-1001942664190','ವೈದೇಹಿ ಪರಿಣಯ'],
-        'Punarvivaha_':['https://graph.org/file/70d5850fd6e9ed8cd7bc0.jpg','upshrink.com','4a6aae0ff4e202d6c04695352f6409511f2a0642','-1001942664190','ಪುನರ್ ವಿವಾಹ'],
+        'Kalyani_':['https://graph.org/file/329ae1460b07630845633.jpg','upshrink.com','4a6aae0ff4e202d6c04695352f6409511f2a0642','-1001942664190','ಪುನರ್ ವಿವಾಹ'],
         'Sandhyaraaga_':['https://graph.org/file/98ef89a04dd66bef924ea.jpg','upshrink.com','4a6aae0ff4e202d6c04695352f6409511f2a0642','-1001942664190','ಸಂಧ್ಯಾರಾಗ'],
         'Naagamandala_':['https://graph.org/file/ba8ff993b1c246334692c.jpg','upshrink.com','db8e518b1e15d2184e0dfe7467a6e6e92f4ccbf4','-1001942664190','ನಾಗಮಂಡಲ'],
         'Mahanayaka_Dr_B_R_Ambedkar_':['https://graph.org/file/6faf520d534a49f6742bb.jpg','upshrink.com','db8e518b1e15d2184e0dfe7467a6e6e92f4ccbf4','-1001942664190',''],
@@ -77,12 +77,12 @@ DATAODD = {
         'Karimani_':['https://graph.org/file/309839d1a79ec3835a776.jpg','runurl.in','fcf56bddf9c2a2ccf09ea87c502a2c606850da6c','-1001965277713',''],
         'Ramachari_':['https://graph.org/file/f590c3585b4c0068df630.jpg','runurl.in','250ce2fa3975ccb8cfb8b8d964230624bb770a30','-1001965277713',''],
         ######### KINGURL ########## OLD-->(LINKSHORTIFY)
-        'Brundavana_':['https://te.legra.ph/file/400cc7b9a9dcc1c1d230e.jpg','kingurl.in','326415c4840f105856526ab758ddbd76f3be37bc','-1001965277713',''],
+        'Nanna_Devaru_':['https://te.legra.ph/file/400cc7b9a9dcc1c1d230e.jpg','kingurl.in','326415c4840f105856526ab758ddbd76f3be37bc','-1001965277713',''],
         'Lakshmi_Baramma_':['https://graph.org/file/be3588e70978523792514.jpg','kingurl.in','bacc7afdaa035d3cbe2d2c89bec4304b69a25145','-1001965277713',''],
         'Bhagyalakshmi_':['https://graph.org/file/261d0c995b5e2a434093b.jpg','kingurl.in','1012552615a385422f1e5aae88e859b0e0b12b84','-1001965277713',''],
         ######### PUBLICEARN ##########
-        'Pavada_Purasha_':['https://graph.org/file/f65651907ba441187f7b1.jpg','publicearn.com','473c08dc24bf90aa3694e0365978e93b900a8b5e','-1001965277713',''],
-        'Shiva_Shakthi_':['https://te.legra.ph/file/cd50cd7409c99d938aace.jpg','publicearn.com','7a31310702b8f319804ab699cfde6303ee7d35fa','-1001965277713',''],
+        'Pavada_Purasha_':['https://graph.org/file/a8c67ae34d4d5b23735ae.jpg','publicearn.com','473c08dc24bf90aa3694e0365978e93b900a8b5e','-1001965277713',''],
+        'Sri_Devi_Mahatme_':['https://graph.org/file/10075ca5d53d3c7bfc182.jpg','publicearn.com','7a31310702b8f319804ab699cfde6303ee7d35fa','-1001965277713',''],
         'Chukki_Taare_':['https://graph.org/file/c511bf699a79f9ab29fa0.jpg','publicearn.com','464106b92f625bb080da1a9170abcc819e346820','-1001965277713',''],
        ######### SETURL ########## OLD-->(TNSHORT)
         'Antarapata_':['https://graph.org/file/ea08c222d4848f1661e3c.jpg','seturl.in','75a477d1a664d25aca968ce51741088bdd19f1d0','-1001965277713',''],
@@ -177,7 +177,7 @@ DATAEVEN = {
         ######### UPSHRINK ########## 
         'Kalyanamasthu_':['https://graph.org/file/db7a3d7d1a2654540cf99.jpg','upshrink.com','db8e518b1e15d2184e0dfe7467a6e6e92f4ccbf4','-1001942664190'],
         'Vaidehi_Parinaya_':['https://graph.org/file/8c7eda434e1f0baae0b81.jpg','upshrink.com','db8e518b1e15d2184e0dfe7467a6e6e92f4ccbf4','-1001942664190'],
-        'Punarvivaha_':['https://graph.org/file/70d5850fd6e9ed8cd7bc0.jpg','upshrink.com','7864f20bc9c1eb4c29769f820c1069ddd21dfe94','-1001942664190'],
+        'Kalyani_':['https://graph.org/file/329ae1460b07630845633.jpg','upshrink.com','7864f20bc9c1eb4c29769f820c1069ddd21dfe94','-1001942664190'],
         'Manemagalu_':['https://graph.org/file/979b1125f1b333d1b8b07.jpg','upshrink.com','4a6aae0ff4e202d6c04695352f6409511f2a0642','-1001942664190'],
         'Sandhyaraaga_':['https://graph.org/file/98ef89a04dd66bef924ea.jpg','upshrink.com','7864f20bc9c1eb4c29769f820c1069ddd21dfe94','-1001942664190'],
         'Naagamandala_':['https://graph.org/file/ba8ff993b1c246334692c.jpg','upshrink.com','4a6aae0ff4e202d6c04695352f6409511f2a0642','-1001942664190'],
@@ -192,7 +192,7 @@ DATAEVEN = {
         'Paaru_':['https://graph.org/file/f4eccb711889b4e33952a.jpg','gyanilinks.com','','-1001942664190'],
   
         ######### RUNURL ##########
-        'Brundavana_':['https://te.legra.ph/file/400cc7b9a9dcc1c1d230e.jpg','linkshortify.com','8a9a3df5db074b2b1ad10efcd383e5243118447b','-1001965277713'],
+        'Nanna_Devaru_':['https://graph.org/file/a8c67ae34d4d5b23735ae.jpg','linkshortify.com','8a9a3df5db074b2b1ad10efcd383e5243118447b','-1001965277713'],
         'Lakshmi_Baramma_':['https://graph.org/file/be3588e70978523792514.jpg','runurl.in','fcf56bddf9c2a2ccf09ea87c502a2c606850da6c','-1001965277713'],
         'Bhagyalakshmi_':['https://graph.org/file/261d0c995b5e2a434093b.jpg','runurl.in','250ce2fa3975ccb8cfb8b8d964230624bb770a30','-1001965277713'],
         ######### KINGUEL ########## OLD-->(LINKSHORTIFY)
@@ -206,7 +206,7 @@ DATAEVEN = {
        ######### SETURL ########## OLD-->(TNSHORT)
         'Pavada_Purasha_':['https://graph.org/file/f65651907ba441187f7b1.jpg','seturl.in','75a477d1a664d25aca968ce51741088bdd19f1d0','-1001965277713'],
         'Chukki_Taare_':['https://graph.org/file/c511bf699a79f9ab29fa0.jpg','seturl.in','d299cd87a64a7955b9384d52998ad2d03414d16e','-1001965277713'],
-        'Shiva_Shakthi_':['https://te.legra.ph/file/cd50cd7409c99d938aace.jpg','seturl.in','9bc86ebb0f21c98a025f475697718918ceb496b6','-1001965277713'],
+        'Sri_Devi_Mahatme_':['https://graph.org/file/10075ca5d53d3c7bfc182.jpg','seturl.in','9bc86ebb0f21c98a025f475697718918ceb496b6','-1001965277713'],
         ######### UPSHRINK ########## 
         'Shantham_Papam_':['https://graph.org/file/60605e71f6621d0d5d344.jpg','upshrink.com','7864f20bc9c1eb4c29769f820c1069ddd21dfe94','-1001965277713'],
         'Saviruchi_':['https://graph.org/file/8a5daf97be69efc0cfc6d.jpg','upshrink.com','4a6aae0ff4e202d6c04695352f6409511f2a0642','-1001965277713'],
@@ -264,7 +264,7 @@ DATAEVEN = {
 
         ######### RUNURL ##########
         'Radhika_':['https://graph.org/file/54b5e2f6ca7c813736fd6.jpg','linkshortify.com','8a9a3df5db074b2b1ad10efcd383e5243118447b','-1002215769087'],
-        'Lakshmi_Nivasa_':['https://graph.org/file/6306489e3155e6780acc8.jpg','runurl.in','fcf56bddf9c2a2ccf09ea87c502a2c606850da6c','-1002215769087'],
+        'Sevanthi_':['ttps://graph.org/file/614979f04408e379c713f.jpg','runurl.in','fcf56bddf9c2a2ccf09ea87c502a2c606850da6c','-1002215769087'],
         'Gange_Gowri_':['https://graph.org/file/e2691e1b1d11b0a8b4e8e.jpg','runurl.in','250ce2fa3975ccb8cfb8b8d964230624bb770a30','-1002215769087'],
         ######### KINGURL ########## OLD-->(LINKSHORTIFY)
         'Myna_':['https://graph.org/file/4cfa16a5565e106c11523.jpg','kingurl.in','326415c4840f105856526ab758ddbd76f3be37bc','-1002215769087'],
