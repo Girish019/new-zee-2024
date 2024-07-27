@@ -63,6 +63,7 @@ DATAODD = {
         'Mahanayaka_Dr_B_R_Ambedkar_':['https://graph.org/file/6faf520d534a49f6742bb.jpg','upshrink.com','db8e518b1e15d2184e0dfe7467a6e6e92f4ccbf4','-1001942664190',''],
         ########## WEEKEND SHOES ############
         'Comedy_Khiladigalu_Premier_League_':['https://graph.org/file/4e4548e4fac698ce3ebef.jpg','','','-1001942664190'],
+        'Dance_Karnataka_Dance_2024':['https://graph.org/file/8e61a091d685811f24de7.jpg','','','-1001942664190'],
         'Sa_Re_Ga_Ma_Pa_Season_20_':['https://graph.org/file/7ef74d66ba659081feab3.jpg','','','-1001942664190'],
         'Drama_Juniors_Season_5_':['https://graph.org/file/d8b1e16b46a0c6a4850fe.jpg','','','-1001942664190'],
         'Mahanati_':['https://graph.org/file/b896bab4705bdf8b42a94.jpg','tnvalue.in','','-1001942664190'],
@@ -70,7 +71,6 @@ DATAODD = {
         'Gattimela_':['https://graph.org/file/d3eda0e1961ee06e5cba7.jpg','','','-1001942664190'],
         'Paaru_':['https://graph.org/file/f4eccb711889b4e33952a.jpg','','','-1001942664190'],
         'Manemagalu_':['https://graph.org/file/979b1125f1b333d1b8b07.jpg','','','-1001942664190'],
-
   
         ######### RUNURL ##########
         'Shreegowri_':['https://graph.org/file/b12919aaec86f1c32a2e7.jpg','linkshortify.com','8a9a3df5db074b2b1ad10efcd383e5243118447b','-1001965277713',''],
@@ -118,7 +118,7 @@ DATAODD = {
         'Kasthuri_':['https://graph.org/file/fa78cde52d839a6813b9b.jpg','kingurl.in','bacc7afdaa035d3cbe2d2c89bec4304b69a25145','-1001901182731',''],
         'Aase_':['https://te.legra.ph/file/2e41e0ab4cf35e473de3c.jpg','kingurl.in','1012552615a385422f1e5aae88e859b0e0b12b84','-1001901182731',''],
         ######### PUBLICEARN ##########
-        'Suvarna-Gruhamantri':['https://graph.org/file/c03455c38d350d6c8f2eb.jpg','publicearn.com','464106b92f625bb080da1a9170abcc819e346820','-1001901182731',''],
+        'Suvarna_Gruhamantri_':['https://graph.org/file/c03455c38d350d6c8f2eb.jpg','publicearn.com','464106b92f625bb080da1a9170abcc819e346820','-1001901182731',''],
         'Honganasu_':['https://graph.org/file/ca9bcfcfb5560459c3bcf.jpg','publicearn.com','473c08dc24bf90aa3694e0365978e93b900a8b5e','-1001901182731',''],
         'Aragini_2_':['https://graph.org/file/6ddd25521aa2c813306aa.jpg','publicearn.com','7a31310702b8f319804ab699cfde6303ee7d35fa','-1001901182731',''],
        ######### SETURL ########## OLD-->(TNSHORT)
@@ -184,6 +184,7 @@ DATAEVEN = {
         'Mahanayaka_Dr_B_R_Ambedkar_':['https://graph.org/file/6faf520d534a49f6742bb.jpg','upshrink.com','4a6aae0ff4e202d6c04695352f6409511f2a0642','-1001942664190'],
         ########## WEEKEND SHOES ############
         'Comedy_Khiladigalu_Premier_League_':['https://graph.org/file/4e4548e4fac698ce3ebef.jpg','','','-1001942664190'],
+        'Dance_Karnataka_Dance_2024':['https://graph.org/file/8e61a091d685811f24de7.jpg','','','-1001942664190'],
         'Sa_Re_Ga_Ma_Pa_Season_20_':['https://graph.org/file/7ef74d66ba659081feab3.jpg','','','-1001942664190'],
         'Drama_Juniors_Season_5_':['https://graph.org/file/d8b1e16b46a0c6a4850fe.jpg','','','-1001942664190'],
         'Mahanati_':['https://graph.org/file/b896bab4705bdf8b42a94.jpg','','','-1001942664190'],
@@ -242,7 +243,7 @@ DATAEVEN = {
         'Avanu_Matthe_Shravani_':['https://graph.org/file/c0403382ffa200212ae4f.jpg','publicearn.com','7a31310702b8f319804ab699cfde6303ee7d35fa','-1001901182731'],
        ######### SETURL ########## OLD-->(TNSHORT)
         'Honganasu_':['https://graph.org/file/ca9bcfcfb5560459c3bcf.jpg','seturl.in','75a477d1a664d25aca968ce51741088bdd19f1d0','-1001901182731'],
-        'Suvarna-Gruhamantri':['https://graph.org/file/c03455c38d350d6c8f2eb.jpg','seturl.in','d299cd87a64a7955b9384d52998ad2d03414d16e','-1001901182731'],
+        'Suvarna_Gruhamantri_':['https://graph.org/file/c03455c38d350d6c8f2eb.jpg','seturl.in','d299cd87a64a7955b9384d52998ad2d03414d16e','-1001901182731'],
         'Aragini_2_':['https://graph.org/file/6ddd25521aa2c813306aa.jpg','seturl.in','9bc86ebb0f21c98a025f475697718918ceb496b6','-1001901182731'],
         ######### UPSHRINK ########## 
         'Udho_Udho_Shri_Renuka_Yellamma_':['https://graph.org/file/f5749c1343173f855b0e7.jpg','upshrink.com','4a6aae0ff4e202d6c04695352f6409511f2a0642','-1001901182731'],
