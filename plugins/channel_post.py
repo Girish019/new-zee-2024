@@ -28,20 +28,7 @@ async def date(bot, message):
 async def channel_post(client: Client, message: Message):
     current_time = datetime.now()
     media = message.video or message.document
-############# FOR Ds BOT ##################
-    #filname= media.file_name.split("Season")[0]#[1][2]etc
-    #filname= media.file_name.split("Season")[0]#[1][2]etc
-    #prefile = re.split("Season_",media.file_name)[1]
-    #subfile= re.split("_Episode_", prefile)
-    #season = subfile[0] 
-    #episode = re.split("_", subfile[1])[0]
-    #Eno =f"S0{season}E{episode}"
     
-############# FOR UTSAV BOT ##################
-    #Eno= re.findall("S\d+E\d+\d", media.file_name)
-################# FOR DS BOT ##################
-    #filname = re.split(current_time.strftime("%B"), media.file_name)[0]#[1][2]etc   
-################ FOR DS BOT 2nd CASE #############
     bot_msg = await message.reply_text("Please Wait...!", quote = True) #reply text please wait... to bot
     try:
         #janvary = current_time.strftime("%B")
