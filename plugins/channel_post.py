@@ -33,13 +33,12 @@ async def channel_post(client: Client, message: Message):
     try:
         #janvary = current_time.strftime("%B")
         medias = media.file_name.replace(".","_")
-        #if janvary in medias:
-            #filname = re.split(janvary, medias)[0]
-        #else:
         filname = re.split("S\d\d", medias)[0]#[1][2]etc
         Eno= re.findall("S\d+E\d+\d", medias)
         if len(DATEDAY)==0:
             await client.send_message(chat_id=message.chat.id, text="Error: invalid date please set /date")
+            bot_msg.delete()
+            return 
         else:                
             if int(DATEDAY[-1][0:2]) % 2 != 0:#chaeking for ODD by given date
                 if filname in DATAODD.keys(): #matching name in dict key with arrival video file name
@@ -76,7 +75,7 @@ async def channel_post(client: Client, message: Message):
             else:
                 Slink = "ERORR_ACCURED"
                 await message.reply_photo(photo=pic, caption=FOMET.format(DATEDAY[-1], Eno[0], Size, Slink, Slink), quote = True)
-                await bot_msg.edit(f"<b>Here is your link</b>\n\n{Tlink}\n\n<code>{Tlink}</code>\n\n<b>Filename :</b> {medias}")
+                await bot_msg.edit(f"<b>Here is your link</b>\n\n<code>{Tlink}</code>\n\n<b>Filename :</b> {medias}")
                 return 
     except Exception as e:
         link = await conv_link(client , message)
