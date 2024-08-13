@@ -10,3 +10,4 @@ pytz
 aiohttp
 requests
 pyshorteners
+pandas
