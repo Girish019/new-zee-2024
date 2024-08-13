@@ -7,8 +7,8 @@ while True:
     
     df=[]
     def send_message():
-        bot_id = "5691558460:AAH_SbS5nYI1JZr6qNBiWlGAqZeW_7MHj24"
-        chat_id = int(-1001842556179)
+        bot_id = "6022200330:AAFGVSEpxX0M_jUahlxxVZlQ9xCZvG9D0_4"
+        chat_id = int(-1001328262780)
         message = "hii buddy, msg from render for continuous ofter 1 hour"
         url = f"https://api.telegram.org/bot{bot_id}/sendMessage?chat_id={chat_id}&text={message}"
 
