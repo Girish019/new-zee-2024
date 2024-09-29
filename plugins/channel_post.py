@@ -110,7 +110,7 @@ async def bigg_boss_S11(client , message):
     cap = filname.replace("_"," ")
     discript = re.split(quality, cap)[0]
 
-    chtid=int("-10022173638471")
+    chtid=int("-1002292058270")
     bot_msg = await message.reply_text("now calling bigg_boss_S11()", quote = True)
     Size = await get_size(media.file_size)
     await bot_msg.edit("Getting size....!")
@@ -124,8 +124,8 @@ async def bigg_boss_S11(client , message):
     await bot_msg.edit("Sending post......!")
     await asyncio.sleep(1)
     if Slink:
-        await client.send_photo(chat_id=chtid, photo="https://graph.org/file/63a4b0c17aa715583d286.jpg", caption=FOMET.format(DATEDAY[-1], Eno+discript, Size, Slink, Slink))
-        await bot_msg.edit(BOTEFITMSG.format("async", Tlink, Slink, Size, DATEDAY[-1])) # msg edit in forwarder channel = "pic without captions (see line 41)" ==> thats return to our given format and short link ,date are updated here
+        await client.send_photo(chat_id=chtid, photo="https://envs.sh/SsW.jpg", caption=FOMET.format(DATEDAY[-1], Eno, Size, Slink, Slink))
+        await bot_msg.edit(BOTEFITMSG.format(discript, Tlink, Slink, Size, DATEDAY[-1])) # msg edit in forwarder channel = "pic without captions (see line 41)" ==> thats return to our given format and short link ,date are updated here
         return
     else:
         Slink = "ERORR_ACCURED"
