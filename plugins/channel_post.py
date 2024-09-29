@@ -113,6 +113,16 @@ async def conv_link(client , message):
     link = f"https://telegram.me/{client.username}?start={base64_string}"
     # await client.send_massage(message.chat.id , f"<b>Here is your link</b>\n\n{link}\n\n<code>{link}</code>", disable_web_page_preview = True)
     return link
+
+
+@Client.on_message(filters.private & filters.user(ADMINS) & filters.command(["link"]))
+async def incoming_gen_link(client: Client, message: Message):
+    Tlink = await conv_link(client , message)
+    await message.reply(f"<b>⭕ ʜᴇʀᴇ ɪs ʏᴏᴜʀ ʟɪɴᴋ:\n\n🖇️ sʜᴏʀᴛ ʟɪɴᴋ :- {Tlink} \n\n<code>{link}</code></b>")
+    
+
+
+
         
 async def get_size(size):
     """Get size in readable format"""
