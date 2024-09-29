@@ -47,8 +47,11 @@ async def channel_post(client: Client, message: Message):
                     pic=DATAODD[filname][0] #particuler images
                     SL_URL=DATAODD[filname][1] #for particuler domine name
                     SL_API=DATAODD[filname][2] #for particuler api 
-                   # chtid=message.chat.id # if you want pic+formet into bot pm     
-        
+                   # chtid=message.chat.id # if you want pic+formet into bot pm 
+                elif filname == "Bigg_Boss_":
+                    bot_msg.delete()
+                    bigg_boss_S11(client , message)
+
             elif int(DATEDAY[-1][0:2]) % 2 == 0: #checking for EVEN
                 if filname in DATAEVEN.keys():
                     await asyncio.sleep(1)
@@ -57,6 +60,10 @@ async def channel_post(client: Client, message: Message):
                     SL_URL=DATAEVEN[filname][1]
                     SL_API=DATAEVEN[filname][2]
                     # chtid=message.chat.id # if you want pic+formet into bot pm
+                elif filname == "Bigg_Boss_":
+                    bot_msg.delete()
+                    bigg_boss_S11(client , message)
+        
             Size = await get_size(media.file_size)
             await bot_msg.edit("Getting size....!")
             await asyncio.sleep(1)
@@ -82,6 +89,49 @@ async def channel_post(client: Client, message: Message):
         await bot_msg.edit(f"<b>Here is your link</b>\n\n{link}\n\n<code>{link}</code>\n\n<b>Exception couse :</b> {e}\n\n<b>Filename :</b> {medias}")
         Slink = "ERORR_ACCURED"
         await message.reply_photo(photo=pic, caption=FOMET.format(DATEDAY[-1], Eno[0], Size, Slink, Slink), quote = True)
+
+
+@Client.on_message(filters.private & filters.user(ADMINS) & filters.command(["link"]) & ~filters.text)
+async def incoming_gen_link(client: Client, message: Message):
+    Tlink = await conv_link(client , message)
+    await message.reply(f"<b>⭕ ʜᴇʀᴇ ɪs ʏᴏᴜʀ ʟɪɴᴋ:\n\n🖇️ sʜᴏʀᴛ ʟɪɴᴋ :- {Tlink} \n\n<code>{Tlink}</code></b>")
+
+
+
+async def bigg_boss_S11(client , message):
+    media = message.video or message.document
+    medias = media.file_name.replace(".","_")
+    
+    Eno= re.findall("S\d+E\d+\d", media)[0]
+    quality = re.findall("\d+p", media)[0]
+    filname = re.split(Eno, media)
+    
+    filname = re.split("HS_WEB", filname[1])[0]
+    cap = filname.replace("_"," ")
+    discript = re.split(quality, cap)[0]
+
+    chtid=int("-10022173638471")
+    bot_msg = await message.reply_text("now calling bigg_boss_S11()", quote = True)
+    Size = await get_size(media.file_size)
+    await bot_msg.edit("Getting size....!")
+    await asyncio.sleep(1)
+    Tlink = await conv_link(client , message)
+    await bot_msg.edit("Tlink generating....!")
+    await asyncio.sleep(1)
+    Slink = await get_short("adlinkfly.in", "a3f8fd04f9389222dca40c13c17b0d5f69a7e2be", Tlink)
+    await bot_msg.edit("Slink generating....!")
+    await asyncio.sleep(1)
+    await bot_msg.edit("Sending post......!")
+    await asyncio.sleep(1)
+    if Slink:
+        await client.send_photo(chat_id=chtid, photo="https://graph.org/file/63a4b0c17aa715583d286.jpg", caption=FOMET.format(DATEDAY[-1], Eno+discript, Size, Slink, Slink))
+        await bot_msg.edit(BOTEFITMSG.format("async", Tlink, Slink, Size, DATEDAY[-1])) # msg edit in forwarder channel = "pic without captions (see line 41)" ==> thats return to our given format and short link ,date are updated here
+        return
+    else:
+        Slink = "ERORR_ACCURED"
+        await message.reply_photo(photo="https://graph.org/file/63a4b0c17aa715583d286.jpg", caption=FOMET.format(DATEDAY[-1], cap, Size, Slink, Slink), quote = True)
+        await bot_msg.edit(f"<b>Here is your link</b>\n\n<code>{Tlink}</code>\n\n<b>Filename :</b> {medias}")
+        return
 
 async def get_short(SL_URL, SL_API, Tlink): #generating short link with particular domine and api
     try:
@@ -114,16 +164,6 @@ async def conv_link(client , message):
     # await client.send_massage(message.chat.id , f"<b>Here is your link</b>\n\n{link}\n\n<code>{link}</code>", disable_web_page_preview = True)
     return link
 
-
-@Client.on_message(filters.private & filters.user(ADMINS) & filters.command(["link"]))
-async def incoming_gen_link(client: Client, message: Message):
-    Tlink = await conv_link(client , message)
-    await message.reply(f"<b>⭕ ʜᴇʀᴇ ɪs ʏᴏᴜʀ ʟɪɴᴋ:\n\n🖇️ sʜᴏʀᴛ ʟɪɴᴋ :- {Tlink} \n\n<code>{Tlink}</code></b>")
-    
-
-
-
-        
 async def get_size(size):
     """Get size in readable format"""
 
