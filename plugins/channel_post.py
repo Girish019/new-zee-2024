@@ -91,7 +91,7 @@ async def channel_post(client: Client, message: Message):
         await message.reply_photo(photo=pic, caption=FOMET.format(DATEDAY[-1], Eno[0], Size, Slink, Slink), quote = True)
 
 
-@Client.on_message(filters.private & filters.user(ADMINS) & filters.command(["link"]) & ~filters.text)
+@Client.on_message(filters.private & filters.user(ADMINS) & filters.command(["link"]))
 async def incoming_gen_link(client: Client, message: Message):
     replied = message.reply_to_message
     if not replied:
