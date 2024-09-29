@@ -93,7 +93,15 @@ async def channel_post(client: Client, message: Message):
 
 @Client.on_message(filters.private & filters.user(ADMINS) & filters.command(["link"]) & ~filters.text)
 async def incoming_gen_link(client: Client, message: Message):
-    Tlink = await conv_link(client , message)
+    replied = message.reply_to_message
+    if not replied:
+        return await message.reply('Reply to a message to get a shareable link.')
+    file_type = replied.media
+    if file_type not in [enums.MessageMediaType.VIDEO, enums.MessageMediaType.AUDIO, enums.MessageMediaType.DOCUMENT, enums.MessageMediaType.PHOTO]:
+        return await message.reply("**ʀᴇᴘʟʏ ᴛᴏ ᴀ sᴜᴘᴘᴏʀᴛᴇᴅ ᴍᴇᴅɪᴀ**")
+    if message.has_protected_content and message.chat.id not in ADMINS:
+        return await message.reply("okDa")
+    Tlink = await conv_link(client , replied)
     await message.reply(f"<b>⭕ ʜᴇʀᴇ ɪs ʏᴏᴜʀ ʟɪɴᴋ:\n\n🖇️ sʜᴏʀᴛ ʟɪɴᴋ :- {Tlink} \n\n<code>{Tlink}</code></b>")
 
 
@@ -129,7 +137,7 @@ async def bigg_boss_S11(client , message):
         return
     else:
         Slink = "ERORR_ACCURED"
-        await message.reply_photo(photo="https://graph.org/file/63a4b0c17aa715583d286.jpg", caption=FOMET.format(DATEDAY[-1], cap, Size, Slink, Slink), quote = True)
+        await message.reply_photo(photo="https://envs.sh/SsW.jpg", caption=FOMET.format(DATEDAY[-1], cap, Size, Slink, Slink), quote = True)
         await bot_msg.edit(f"<b>Here is your link</b>\n\n<code>{Tlink}</code>\n\n<b>Filename :</b> {medias}")
         return
 
