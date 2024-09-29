@@ -132,12 +132,12 @@ async def bigg_boss_S11(client , message):
     await bot_msg.edit("Sending post......!")
     await asyncio.sleep(1)
     if Slink:
-        await client.send_photo(chat_id=chtid, photo="https://envs.sh/SsW.jpg", caption=FOMET.format(DATEDAY[-1], Eno, Size, Slink, Slink))
+        await client.send_photo(chat_id=chtid, photo="https://envs.sh/S9h.png", caption=FOMET.format(DATEDAY[-1], Eno, Size, Slink, Slink))
         await bot_msg.edit(BOTEFITMSG.format(discript, Tlink, Slink, Size, DATEDAY[-1])) # msg edit in forwarder channel = "pic without captions (see line 41)" ==> thats return to our given format and short link ,date are updated here
         return
     else:
         Slink = "ERORR_ACCURED"
-        await message.reply_photo(photo="https://envs.sh/SsW.jpg", caption=FOMET.format(DATEDAY[-1], cap, Size, Slink, Slink), quote = True)
+        await message.reply_photo(photo="https://envs.sh/S9h.png", caption=FOMET.format(DATEDAY[-1], cap, Size, Slink, Slink), quote = True)
         await bot_msg.edit(f"<b>Here is your link</b>\n\n<code>{Tlink}</code>\n\n<b>Filename :</b> {medias}")
         return
 
