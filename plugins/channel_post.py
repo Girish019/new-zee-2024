@@ -118,7 +118,7 @@ async def conv_link(client , message):
 @Client.on_message(filters.private & filters.user(ADMINS) & filters.command(["link"]))
 async def incoming_gen_link(client: Client, message: Message):
     Tlink = await conv_link(client , message)
-    await message.reply(f"<b>⭕ ʜᴇʀᴇ ɪs ʏᴏᴜʀ ʟɪɴᴋ:\n\n🖇️ sʜᴏʀᴛ ʟɪɴᴋ :- {Tlink} \n\n<code>{link}</code></b>")
+    await message.reply(f"<b>⭕ ʜᴇʀᴇ ɪs ʏᴏᴜʀ ʟɪɴᴋ:\n\n🖇️ sʜᴏʀᴛ ʟɪɴᴋ :- {Tlink} \n\n<code>{Tlink}</code></b>")
     
 
 
