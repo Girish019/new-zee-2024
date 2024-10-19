@@ -15,6 +15,7 @@ import requests
 import time
 import json
 import os, math
+from config import Current_File_Path
 from zee5dl  import ZEE5API, Processor
 script_directory = os.path.dirname(os.path.abspath("__file__"))
 
@@ -37,6 +38,8 @@ app = Client(
 @app.on_message(filters.command('path') & filters.private )
 async def start_command(client, message):
     await message.reply_text(script_directory, quote=True)
+    await message.reply_text(Current_File_Path, quote=True)
+  
 
 
 
