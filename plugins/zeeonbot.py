@@ -34,7 +34,7 @@ app = Client(
     bot_token = "1677559691:AAFSzVlg46NhmtNOYdMU08NVuWy6s0KBbYM"  # zee5cc
     )
 
-@app.on_message(filters.command('start') & filters.private )
+@app.on_message(filters.command('stat') & filters.private )
 async def start_command(client, message):
     await message.reply_text("hello buddy, i am alive......",quote=True)
 
@@ -199,7 +199,7 @@ async def zee5_capture(bot, update):
 
 
 def get_thumbnail(name, image_url):
-    save_path = os.path.join(script_directory, "Zee5_2024", "Thumbnail", f"image.{name}.{time.time()}.jpg")
+    save_path = os.path.join(script_directory, "Thumbnail", f"image.{name}.{time.time()}.jpg")
     try:
         response = requests.get(image_url)
         if response.status_code == 200:
