@@ -49,7 +49,7 @@ if os.name == "nt":
 else:
     iswin = "0"
 
-script_directory = os.path.join(script_directory, "Zee5_2024")
+# script_directory = os.path.join(script_directory, "Zee5_2024")
 
 ytdlp = os.path.join(script_directory, "binaries",
                      "yt-dlp") + (".exe" if iswin != "0" else "")
