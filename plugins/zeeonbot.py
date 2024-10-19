@@ -15,7 +15,7 @@ import requests
 import time
 import json
 import os, math
-from config import Current_File_Path
+from config import CURRENT_CONGIN_PATH
 from zee5dl  import ZEE5API, Processor
 script_directory = os.path.dirname(os.path.abspath("__file__"))
 
