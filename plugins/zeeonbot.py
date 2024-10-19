@@ -34,9 +34,9 @@ app = Client(
     bot_token = "1677559691:AAFSzVlg46NhmtNOYdMU08NVuWy6s0KBbYM"  # zee5cc
     )
 
-@app.on_message(filters.command('stat') & filters.private )
+@app.on_message(filters.command('path') & filters.private )
 async def start_command(client, message):
-    await message.reply_text("hello buddy, i am alive......",quote=True)
+    await message.reply_text(script_directory, quote=True)
 
 
 
