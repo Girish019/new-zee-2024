@@ -11,3 +11,11 @@ aiohttp
 requests
 pyshorteners
 pandas
+click
+lxml
+protobuf
+pycryptodome
+pymp4
+requests
+Unidecode
+xmltodict
