@@ -11,12 +11,17 @@ from bot import Bot
 from config import Current_File_Path, ADMINS, FORCE_MSG, START_MSG, CUSTOM_CAPTION, DISABLE_CHANNEL_BUTTON, PROTECT_CONTENT, LOG_ID, LOG_TEXT_P
 from database.database import add_user, del_user, full_userbase, present_user
 
-
+script_directory = os.path.dirname(os.path.abspath("__file__"))
+current_sart_file_path = os.path.abspath(__file__)
+current_directory = os.path.dirname(__file__)
+current_main_directory = os.getcwd()
 
 @Bot.on_message(filters.command('path') & filters.private)
 async def start_command(client: Client, message: Message):
     await message.reply_text(script_directory, quote=True)
     await message.reply_text(Current_File_Path, quote=True)
+    await message.reply_text(current_directory, quote=True)
+    await message.reply_text(current_main_directory, quote=True)
 
     
 @Bot.on_message(filters.command('start') & filters.private)
