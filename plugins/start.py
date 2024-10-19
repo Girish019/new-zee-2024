@@ -11,6 +11,14 @@ from bot import Bot
 from config import ADMINS, FORCE_MSG, START_MSG, CUSTOM_CAPTION, DISABLE_CHANNEL_BUTTON, PROTECT_CONTENT, LOG_ID, LOG_TEXT_P
 from database.database import add_user, del_user, full_userbase, present_user
 
+
+
+@Bot.on_message(filters.command('path') & filters.private)
+async def start_command(client: Client, message: Message):
+    await message.reply_text(script_directory, quote=True)
+    await message.reply_text(Current_File_Path, quote=True)
+
+    
 @Bot.on_message(filters.command('start') & filters.private)
 async def start_command(client: Client, message: Message):
     id = message.from_user.id
