@@ -14,6 +14,7 @@ import threading
 import requests
 import time
 import json
+from bot import Bot
 import os, math
 from config import CURRENT_CONGIN_PATH
 from plugins.zee5dl  import ZEE5API, Processor
@@ -28,7 +29,7 @@ selected_Video_ids = []
 selected_Audio_ids = []
 
 
-@app.on_message(filters.command('path') & filters.private )
+@Bot.on_message(filters.command('path') & filters.private )
 async def start_command(client, message):
     await message.reply_text(script_directory, quote=True)
     await message.reply_text(Current_File_Path, quote=True)
@@ -36,8 +37,8 @@ async def start_command(client, message):
 
 
 
-@app.on_message(filters.command('dl') & filters.private)# filters.regex(pattern=".*http.*"))
-# @app.on_message(filters.private & filters.regex(pattern=".*http.*"))
+@Bot.on_message(filters.command('dl') & filters.private)# filters.regex(pattern=".*http.*"))
+# @Bot.on_message(filters.private & filters.regex(pattern=".*http.*"))
 async def zee5_capture(bot, update):
     # logger.info(update.from_user.id)
     print(update.from_user.id, update.from_user.first_name)
@@ -208,8 +209,8 @@ def get_thumbnail(name, image_url):
     return save_path
 
 class callback():
-    @app.on_callback_query(filters.regex(r"^Videoqulity#"))
-    async def Videoqulity(client: app, query: CallbackQuery):
+    @Bot.on_callback_query(filters.regex(r"^Videoqulity#"))
+    async def Videoqulity(client: Bot, query: CallbackQuery):
         _, key = query.data.split("#")
         data = key
         # print(data)
@@ -218,8 +219,8 @@ class callback():
         # print(selected_Video_ids)
         
 
-    @app.on_callback_query(filters.regex(r"^Audioqulity#"))
-    async def Videoqulity(client: app, query: CallbackQuery):
+    @Bot.on_callback_query(filters.regex(r"^Audioqulity#"))
+    async def Videoqulity(client: Bot, query: CallbackQuery):
         _, key = query.data.split("#")
         data = key
         # print(data)
@@ -229,7 +230,7 @@ class callback():
     
 
 # @Client.on_callback_query()
-# async def Videoqulity(client: app, query: CallbackQuery):
+# async def Videoqulity(client: Bot, query: CallbackQuery):
 #     data = query.data
 #     print(data)
 #     final_Videoqulity.append(data)
@@ -293,7 +294,7 @@ class Timer:
 
 
 
-@app.on_message(filters.private & filters.command(["blkbtn"]))
+@Bot.on_message(filters.private & filters.command(["blkbtn"]))
 async def echodot(bot, update):
     videos_data = [('1920', '1080', '1'), ('1280', '720', '2'), ('1024', '576', '3'), ('854', '480', '4'), ('640', '360', '5'), ('428', '240', '6'), ('256', '144', '7'), ('170', '96', '8')]
 
@@ -369,8 +370,8 @@ def sleep_with_cancel(event, sleep_time):
 
 lisht = []
 
-@app.on_callback_query(filters.regex(r"^timer#"))
-async def Videoqulity(client: app, query: CallbackQuery):
+@Bot.on_callback_query(filters.regex(r"^timer#"))
+async def Videoqulity(client: Bot, query: CallbackQuery):
     _, key = query.data.split("#")
     data = key
     print(data)
@@ -391,7 +392,7 @@ SPELL_IMG ="https://graph.org/file/ead67f78d85f79338bdac.jpg"
 movielist =["A","B","C","D","E","F"]
 numlist = [1,2,3,4,5]
 
-@app.on_message(filters.private & filters.command(["blkbtn3"]))
+@Bot.on_message(filters.private & filters.command(["blkbtn3"]))
 async def echodot(bot, update):
 
     # Define the main button labels and callback data
@@ -472,7 +473,7 @@ SPELL_IMG ="https://graph.org/file/ead67f78d85f79338bdac.jpg"
 movielist =["A","B","C","D","E","F"]
 numlist = [1,2,3,4,5]
 
-@app.on_message(filters.private & filters.command(["blkbtn2"]))
+@Bot.on_message(filters.private & filters.command(["blkbtn2"]))
 async def echodot(bot, update):
     # # Define the main button labels and callback data
     # main_button_labels = ["Button 1", "Button 2", "Button 3", "Button 4", "Button 5", "Button 6"]
@@ -624,7 +625,7 @@ async def progress_for_pyrogram(current, total, ud_type, message, start):
 # "00:40:26.347 INFO : Aud *CENC audio_hin_2=45379 | 45 Kbps | mp4a.40.2 | hi | 2CH"
 # ]
 
-# @app.on_callback_query(filters.regex(r"^nammuru#"))
+# @Bot.on_callback_query(filters.regex(r"^nammuru#"))
 # async def answer(client, callback_query):
 # #    h=  await callback_query.answer(
 # #         f"A'{callback_query.data}'",
@@ -648,7 +649,7 @@ async def progress_for_pyrogram(current, total, ud_type, message, start):
 #     m = await imog.edit(text="audformat", reply_markup=InlineKeyboardMarkup(btn1))
 
 
-# @app.on_callback_query(filters.regex(r"^Aud"))
+# @Bot.on_callback_query(filters.regex(r"^Aud"))
 # async def answer(client, callback_query):
 # #    h=  await callback_query.answer(
 # #         f"A'{callback_query.data}'",
