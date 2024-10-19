@@ -62,7 +62,7 @@ wvd_file_path = os.path.join(script_directory, "static",
 
 dl_folder = os.path.join(script_directory, "downloads")
 if not os.path.exists(dl_folder):
-    os.mkdir(folder_path)
+    os.mkdir(dl_folder)
         
 
 thumb_folder = os.path.join(script_directory, "Thumbnail")
