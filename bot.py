@@ -61,7 +61,7 @@ class Bot(Client):
         self.set_parse_mode(ParseMode.HTML)
         self.LOGGER(__name__).info(f"Bot Running..!\n\nCreated by \nhttps://t.me/CodeXBotz")
 
-        self.LOGGER(__name__).info(f"CURRENT_CONGIN_PATH {CURRENT_CONGIN_PATH} ")
+        # self.LOGGER(__name__).info(f"CURRENT_CONGIN_PATH {CURRENT_CONGIN_PATH} ")
         self.LOGGER(__name__).info(f"script_directory = {os.path.dirname(os.path.abspath("__file__"))} ")
         self.LOGGER(__name__).info(f"current_sart_file_path = {os.path.abspath(__file__)} ")
         self.LOGGER(__name__).info(f"current_directory = {os.path.dirname(__file__)} ")
