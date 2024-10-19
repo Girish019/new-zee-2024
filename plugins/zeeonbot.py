@@ -16,7 +16,7 @@ import time
 import json
 import os, math
 from config import CURRENT_CONGIN_PATH
-from zee5dl  import ZEE5API, Processor
+from plugins.zee5dl  import ZEE5API, Processor
 script_directory = os.path.dirname(os.path.abspath("__file__"))
 
 language_order = ['hi', 'ta', 'te', 'kn', 'bn', 'gu', 'pa', 'as', 'or',
