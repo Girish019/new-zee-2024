@@ -10,7 +10,8 @@ from logging.handlers import RotatingFileHandler
 Current_File_Path = os.path.abspath(__file__)
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5400122847:AAE4i3lpU8z2HQgasoqYtrXNFiWep8VFQvs")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "1677559691:AAFSzVlg46NhmtNOYdMU08NVuWy6s0KBbYM") #zee
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6137898485:AAEzJaeA-K784RS-xN3Q_EzcL_uXA1WkxQA") #lmc
 
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "10755921"))
@@ -20,7 +21,7 @@ API_HASH = os.environ.get("API_HASH", "d5e49fd3637cba407f17807d31c77977")
 
 #Your db channel Id
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001790801242"))
-LOG_ID = int(os.environ.get("LOG_ID", "-1001657067333"))
+LOG_ID = int(os.environ.get("LOG_ID", "-1001872633184"))
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "5636224141"))
 
