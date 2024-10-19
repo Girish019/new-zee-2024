@@ -8,7 +8,7 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, 
 from pyrogram.errors import FloodWait, UserIsBlocked, InputUserDeactivated
 
 from bot import Bot
-from config import Current_File_Path, ADMINS, FORCE_MSG, START_MSG, CUSTOM_CAPTION, DISABLE_CHANNEL_BUTTON, PROTECT_CONTENT, LOG_ID, LOG_TEXT_P
+from config import CURRENT_CONGIN_PATH, ADMINS, FORCE_MSG, START_MSG, CUSTOM_CAPTION, DISABLE_CHANNEL_BUTTON, PROTECT_CONTENT, LOG_ID, LOG_TEXT_P
 from database.database import add_user, del_user, full_userbase, present_user
 
 script_directory = os.path.dirname(os.path.abspath("__file__"))
