@@ -7,7 +7,7 @@ import os
 import logging
 from logging.handlers import RotatingFileHandler
 
-
+Current_File_Path = os.path.abspath(__file__)
 
 #Bot token @Botfather
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5400122847:AAE4i3lpU8z2HQgasoqYtrXNFiWep8VFQvs")
